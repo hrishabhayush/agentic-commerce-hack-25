@@ -1,0 +1,28 @@
+{
+  "graph_summary": {
+    "total_nodes": 14,
+    "total_edges": 46,
+    "node_types": {
+      "metric": 9,
+      "insight": 5
+    },
+    "relationship_types": {
+      "relevance": 46
+    },
+    "audience_coverage": {
+      "investors": 0,
+      "customers": 0,
+      "internal_team": 0,
+      "developer_community": 0
+    },
+    "source_distribution": {
+      "mixpanel_api": 3,
+      "amplitude_api": 4,
+      "stripe_api": 1,
+      "zendesk_api": 1,
+      "news_api_intelligence": 3,
+      "brandwatch_social_listening": 1,
+      "internal_systems": 1
+    }
+  }
+}

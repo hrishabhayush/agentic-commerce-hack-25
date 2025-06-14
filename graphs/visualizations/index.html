@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowMetrics Semantic Graph Visualizations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background: #f8fafc;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        
+        .stat-card .number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #4f46e5;
+            margin-bottom: 5px;
+        }
+        
+        .stat-card .label {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        
+        .visualizations {
+            padding: 40px;
+        }
+        
+        .viz-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .viz-card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .viz-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+        }
+        
+        .viz-card .card-header {
+            padding: 20px;
+            background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+        }
+        
+        .viz-card h3 {
+            font-size: 1.3rem;
+            color: #1e293b;
+            margin-bottom: 8px;
+        }
+        
+        .viz-card p {
+            color: #64748b;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+        
+        .viz-card .card-body {
+            padding: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(79, 70, 229, 0.3);
+        }
+        
+        .icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        
+        .footer {
+            background: #1e293b;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .key-insights {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .key-insights h4 {
+            color: #92400e;
+            margin-bottom: 10px;
+        }
+        
+        .key-insights ul {
+            color: #78350f;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 FlowMetrics Semantic Graph</h1>
+            <p>Interactive visualizations for understanding your agentic commerce knowledge graph</p>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="number">14</div>
+                <div class="label">Total Nodes</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">46</div>
+                <div class="label">Semantic Edges</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">50.5%</div>
+                <div class="label">Graph Density</div>
+            </div>
+            <div class="stat-card">
+                <div class="number">7</div>
+                <div class="label">Data Sources</div>
+            </div>
+        </div>
+        
+        <div class="key-insights">
+            <h4>🔍 Key Insights</h4>
+            <ul>
+                <li><strong>Brand sentiment</strong> is the most connected node (84.6% centrality)</li>
+                <li><strong>64.3%</strong> of nodes are metrics, 35.7% are insights</li>
+                <li><strong>Amplitude API</strong> provides the most data points (4 nodes)</li>
+                <li><strong>14 out of 46</strong> connections are strong relationships</li>
+            </ul>
+        </div>
+        
+        <div class="visualizations">
+            <h2 style="text-align: center; margin-bottom: 40px; color: #1e293b;">📊 Interactive Visualizations</h2>
+            
+            <div class="viz-grid">
+                <div class="viz-card">
+                    <div class="card-header">
+                        <div class="icon">🕸️</div>
+                        <h3>Network Graph</h3>
+                        <p>Explore the complete semantic graph with interactive nodes and edges. See how metrics and insights connect.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="network_graph.html" class="btn" target="_blank">View Network →</a>
+                    </div>
+                </div>
+                
+                <div class="viz-card">
+                    <div class="card-header">
+                        <div class="icon">📈</div>
+                        <h3>Analytics Dashboard</h3>
+                        <p>Comprehensive analytics including node distribution, source analysis, and network metrics.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="analytics_dashboard.html" class="btn" target="_blank">View Dashboard →</a>
+                    </div>
+                </div>
+                
+                <div class="viz-card">
+                    <div class="card-header">
+                        <div class="icon">🔗</div>
+                        <h3>Relationship Analysis</h3>
+                        <p>Deep dive into node centrality and relationship strengths to understand information flow.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="relationship_analysis.html" class="btn" target="_blank">View Analysis →</a>
+                    </div>
+                </div>
+                
+                <div class="viz-card">
+                    <div class="card-header">
+                        <div class="icon">📝</div>
+                        <h3>Insights Report</h3>
+                        <p>Detailed text analysis of graph structure, key metrics, and actionable insights.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="insights_report.md" class="btn" target="_blank">Read Report →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>🤖 Generated by Agentic Commerce Semantic Graph System</p>
+            <p style="margin-top: 10px; opacity: 0.7;">Use these visualizations to understand how data flows through your knowledge graph</p>
+        </div>
+    </div>
+</body>
+</html> 
