@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic Commerce - Graph Visualization Platform</title>
+    <link rel="stylesheet" href="/static/css/graph_styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link href="https://unpkg.com/vis-network/styles/vis-network.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-left">
+                <h1><i class="fas fa-project-diagram"></i> Agentic Commerce Graph</h1>
+                <div class="connection-status">
+                    <span id="connection-indicator" class="status-indicator"></span>
+                    <span id="connection-text">Connecting...</span>
+                </div>
+            </div>
+            <div class="header-right">
+                <button id="export-btn" class="btn btn-secondary">
+                    <i class="fas fa-download"></i> Export
+                </button>
+                <button id="settings-btn" class="btn btn-secondary">
+                    <i class="fas fa-cog"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <!-- Search Section -->
+                <div class="panel">
+                    <h3><i class="fas fa-search"></i> Search</h3>
+                    <div class="search-container">
+                        <input type="text" id="search-input" placeholder="Search nodes..." autocomplete="off">
+                        <button id="search-btn" class="btn btn-primary">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <div id="search-results" class="search-results"></div>
+                </div>
+
+                <!-- Filters Section -->
+                <div class="panel">
+                    <h3><i class="fas fa-filter"></i> Filters</h3>
+                    
+                    <!-- Node Types Filter -->
+                    <div class="filter-group">
+                        <label>Node Types</label>
+                        <div id="node-types-filter" class="checkbox-group"></div>
+                    </div>
+
+                    <!-- Sources Filter -->
+                    <div class="filter-group">
+                        <label>Data Sources</label>
+                        <div id="sources-filter" class="checkbox-group"></div>
+                    </div>
+
+                    <!-- Confidence Range -->
+                    <div class="filter-group">
+                        <label>Min Confidence: <span id="confidence-value">0.0</span></label>
+                        <input type="range" id="confidence-slider" min="0" max="1" step="0.1" value="0">
+                    </div>
+
+                    <!-- Weight Range -->
+                    <div class="filter-group">
+                        <label>Min Relationship Weight: <span id="weight-value">0.3</span></label>
+                        <input type="range" id="weight-slider" min="0" max="1" step="0.1" value="0.3">
+                    </div>
+
+                    <!-- Audience Focus -->
+                    <div class="filter-group">
+                        <label>Audience Focus</label>
+                        <select id="audience-select">
+                            <option value="">All Audiences</option>
+                            <option value="investors">Investors</option>
+                            <option value="customers">Customers</option>
+                            <option value="internal_team">Internal Team</option>
+                            <option value="developer_community">Developers</option>
+                        </select>
+                    </div>
+
+                    <button id="apply-filters-btn" class="btn btn-primary full-width">
+                        Apply Filters
+                    </button>
+                    <button id="clear-filters-btn" class="btn btn-secondary full-width">
+                        Clear All
+                    </button>
+                </div>
+
+                <!-- Statistics Panel -->
+                <div class="panel">
+                    <h3><i class="fas fa-chart-bar"></i> Statistics</h3>
+                    <div id="stats-content">
+                        <div class="stat-item">
+                            <span class="stat-label">Total Nodes:</span>
+                            <span id="total-nodes" class="stat-value">-</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Total Edges:</span>
+                            <span id="total-edges" class="stat-value">-</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Visible Nodes:</span>
+                            <span id="visible-nodes" class="stat-value">-</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Visible Edges:</span>
+                            <span id="visible-edges" class="stat-value">-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Layout Controls -->
+                <div class="panel">
+                    <h3><i class="fas fa-sitemap"></i> Layout</h3>
+                    <div class="layout-controls">
+                        <select id="layout-select">
+                            <option value="force">Force-Directed</option>
+                            <option value="hierarchical">Hierarchical</option>
+                            <option value="circular">Circular</option>
+                            <option value="random">Random</option>
+                        </select>
+                        <button id="apply-layout-btn" class="btn btn-primary full-width">
+                            Apply Layout
+                        </button>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Graph Visualization Area -->
+            <main class="graph-area">
+                <div class="graph-toolbar">
+                    <div class="toolbar-left">
+                        <button id="zoom-in-btn" class="btn btn-tool" title="Zoom In">
+                            <i class="fas fa-search-plus"></i>
+                        </button>
+                        <button id="zoom-out-btn" class="btn btn-tool" title="Zoom Out">
+                            <i class="fas fa-search-minus"></i>
+                        </button>
+                        <button id="fit-btn" class="btn btn-tool" title="Fit to Screen">
+                            <i class="fas fa-expand-arrows-alt"></i>
+                        </button>
+                        <button id="center-btn" class="btn btn-tool" title="Center Graph">
+                            <i class="fas fa-crosshairs"></i>
+                        </button>
+                    </div>
+                    <div class="toolbar-right">
+                        <span id="graph-info" class="graph-info">Ready</span>
+                    </div>
+                </div>
+                <div id="graph-container" class="graph-container">
+                    <div id="loading-overlay" class="loading-overlay">
+                        <div class="loading-spinner"></div>
+                        <p>Loading graph data...</p>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Properties Panel -->
+            <aside class="properties-panel">
+                <div class="panel">
+                    <h3><i class="fas fa-info-circle"></i> Node Details</h3>
+                    <div id="node-details" class="node-details">
+                        <p>Select a node to view details</p>
+                    </div>
+                </div>
+
+                <!-- Analytics Panel -->
+                <div class="panel">
+                    <h3><i class="fas fa-analytics"></i> Analytics</h3>
+                    <div id="analytics-content">
+                        <canvas id="analytics-chart" width="300" height="200"></canvas>
+                    </div>
+                </div>
+
+                <!-- Activity Log -->
+                <div class="panel">
+                    <h3><i class="fas fa-history"></i> Activity</h3>
+                    <div id="activity-log" class="activity-log">
+                        <p>No recent activity</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="export-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Export Graph Data</h2>
+            <div class="export-options">
+                <label>
+                    <input type="radio" name="export-format" value="json" checked>
+                    JSON Format
+                </label>
+                <label>
+                    <input type="radio" name="export-format" value="csv">
+                    CSV Format
+                </label>
+                <label>
+                    <input type="radio" name="export-format" value="graphml">
+                    GraphML Format
+                </label>
+            </div>
+            <button id="download-btn" class="btn btn-primary">Download</button>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="/static/js/graph_visualization.js"></script>
+    <script src="/static/js/websocket_manager.js"></script>
+</body>
+</html> 

@@ -1,0 +1,3499 @@
+{
+  "metadata": {
+    "total_edges": 229,
+    "category": "product_analytics",
+    "creation_timestamp": "2025-06-14T15:57:59.623339",
+    "expanded": true
+  },
+  "edges": [
+    {
+      "source_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "target_id": "7dca9ea7-00ce-4522-9412-808ba62006df",
+      "relationship_type": "correlation",
+      "weight": 0.30297,
+      "confidence": 0.6,
+      "semantic_similarity": 0.258913,
+      "metadata": {
+        "similarity_score": 0.25891283422669586,
+        "source_types": "insight-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "target_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "relationship_type": "causation",
+      "weight": 0.679156,
+      "confidence": 0.8,
+      "semantic_similarity": 0.305854,
+      "metadata": {
+        "similarity_score": 0.30585392279863893,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "target_id": "7fd82c87-3f25-4f0a-8a52-64884156c514",
+      "relationship_type": "dependency",
+      "weight": 0.418344,
+      "confidence": 0.9,
+      "semantic_similarity": 0.281987,
+      "metadata": {
+        "similarity_score": 0.2819869200099832,
+        "source_types": "insight-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "target_id": "a3e2c1bb-17e4-421d-a923-45ebaa3aed0b",
+      "relationship_type": "temporal",
+      "weight": 0.798646,
+      "confidence": 0.6,
+      "semantic_similarity": 0.442879,
+      "metadata": {
+        "similarity_score": 0.4428789476425568,
+        "source_types": "insight-insight",
+        "shared_tags": [
+          "engagement",
+          "growth",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "target_id": "e64a109c-e4d4-48e5-b7fe-45dfafcfe2be",
+      "relationship_type": "correlation",
+      "weight": 0.544286,
+      "confidence": 0.7,
+      "semantic_similarity": 0.519475,
+      "metadata": {
+        "similarity_score": 0.5194747266112734,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "growth",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "target_id": "3fee9429-6a39-45bf-bff3-599c545556b5",
+      "relationship_type": "correlation",
+      "weight": 0.458025,
+      "confidence": 0.9,
+      "semantic_similarity": 0.588979,
+      "metadata": {
+        "similarity_score": 0.588978800372255,
+        "source_types": "insight-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "target_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "relationship_type": "relevance",
+      "weight": 0.538752,
+      "confidence": 0.8,
+      "semantic_similarity": 0.571309,
+      "metadata": {
+        "similarity_score": 0.5713089294492627,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "target_id": "e0c288ef-5b6c-42dc-a6b1-0441de8d3990",
+      "relationship_type": "causation",
+      "weight": 0.593496,
+      "confidence": 0.8,
+      "semantic_similarity": 0.758501,
+      "metadata": {
+        "similarity_score": 0.7585009721836391,
+        "source_types": "insight-insight",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "3b725951-cb1f-4fcb-b6fd-afc33abe4c03",
+      "target_id": "58866e0b-bea1-4cdb-b0da-88cd07440bee",
+      "relationship_type": "correlation",
+      "weight": 0.365718,
+      "confidence": 0.9,
+      "semantic_similarity": 0.698121,
+      "metadata": {
+        "similarity_score": 0.6981206368585257,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "3b725951-cb1f-4fcb-b6fd-afc33abe4c03",
+      "target_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "relationship_type": "relevance",
+      "weight": 0.696852,
+      "confidence": 0.9,
+      "semantic_similarity": 0.657263,
+      "metadata": {
+        "similarity_score": 0.6572627791706032,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance",
+          "user",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "3b725951-cb1f-4fcb-b6fd-afc33abe4c03",
+      "target_id": "7b78c48a-d86a-4a60-990f-5538a006a7fd",
+      "relationship_type": "temporal",
+      "weight": 0.650559,
+      "confidence": 0.7,
+      "semantic_similarity": 0.673721,
+      "metadata": {
+        "similarity_score": 0.6737212850308716,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance",
+          "user",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "3b725951-cb1f-4fcb-b6fd-afc33abe4c03",
+      "target_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "relationship_type": "causation",
+      "weight": 0.305555,
+      "confidence": 0.7,
+      "semantic_similarity": 0.708342,
+      "metadata": {
+        "similarity_score": 0.7083422988286017,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "3b725951-cb1f-4fcb-b6fd-afc33abe4c03",
+      "target_id": "7c770636-9266-4e1e-8e92-146478243f1e",
+      "relationship_type": "temporal",
+      "weight": 0.81793,
+      "confidence": 0.7,
+      "semantic_similarity": 0.576595,
+      "metadata": {
+        "similarity_score": 0.5765949097482916,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "growth",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "3b725951-cb1f-4fcb-b6fd-afc33abe4c03",
+      "target_id": "7dca9ea7-00ce-4522-9412-808ba62006df",
+      "relationship_type": "dependency",
+      "weight": 0.668488,
+      "confidence": 0.9,
+      "semantic_similarity": 0.648815,
+      "metadata": {
+        "similarity_score": 0.6488152872325798,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "performance",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "f22ec8a8-9acb-4d3f-8e57-e487cc67bf56",
+      "target_id": "afa5969b-81f8-41f3-838e-bc7e918ec6f5",
+      "relationship_type": "relevance",
+      "weight": 0.516001,
+      "confidence": 0.8,
+      "semantic_similarity": 0.645266,
+      "metadata": {
+        "similarity_score": 0.6452663584188015,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance",
+          "growth",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "f22ec8a8-9acb-4d3f-8e57-e487cc67bf56",
+      "target_id": "e0c288ef-5b6c-42dc-a6b1-0441de8d3990",
+      "relationship_type": "temporal",
+      "weight": 0.373659,
+      "confidence": 0.6,
+      "semantic_similarity": 0.212853,
+      "metadata": {
+        "similarity_score": 0.21285319491569726,
+        "source_types": "insight-insight",
+        "shared_tags": [
+          "user",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "f22ec8a8-9acb-4d3f-8e57-e487cc67bf56",
+      "target_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "relationship_type": "causation",
+      "weight": 0.398939,
+      "confidence": 0.7,
+      "semantic_similarity": 0.634916,
+      "metadata": {
+        "similarity_score": 0.6349158034800044,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "growth",
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "f22ec8a8-9acb-4d3f-8e57-e487cc67bf56",
+      "target_id": "7783a357-c618-4b3e-987d-1d0211465dd1",
+      "relationship_type": "correlation",
+      "weight": 0.363964,
+      "confidence": 0.8,
+      "semantic_similarity": 0.443037,
+      "metadata": {
+        "similarity_score": 0.4430371549637365,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "growth",
+          "user",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "f22ec8a8-9acb-4d3f-8e57-e487cc67bf56",
+      "target_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "relationship_type": "temporal",
+      "weight": 0.808218,
+      "confidence": 0.7,
+      "semantic_similarity": 0.347977,
+      "metadata": {
+        "similarity_score": 0.34797668796008885,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "f22ec8a8-9acb-4d3f-8e57-e487cc67bf56",
+      "target_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "relationship_type": "correlation",
+      "weight": 0.764443,
+      "confidence": 0.8,
+      "semantic_similarity": 0.308056,
+      "metadata": {
+        "similarity_score": 0.30805604993040875,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "83d036db-9817-4643-9d66-6d0aed9bdc8d",
+      "target_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "relationship_type": "causation",
+      "weight": 0.883556,
+      "confidence": 0.8,
+      "semantic_similarity": 0.314038,
+      "metadata": {
+        "similarity_score": 0.3140383318079367,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "83d036db-9817-4643-9d66-6d0aed9bdc8d",
+      "target_id": "7783a357-c618-4b3e-987d-1d0211465dd1",
+      "relationship_type": "temporal",
+      "weight": 0.800342,
+      "confidence": 0.8,
+      "semantic_similarity": 0.62334,
+      "metadata": {
+        "similarity_score": 0.6233402214222441,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "83d036db-9817-4643-9d66-6d0aed9bdc8d",
+      "target_id": "9b14da7d-7637-4865-a821-d4b42d546d27",
+      "relationship_type": "correlation",
+      "weight": 0.372068,
+      "confidence": 0.7,
+      "semantic_similarity": 0.728217,
+      "metadata": {
+        "similarity_score": 0.7282173983546956,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "83d036db-9817-4643-9d66-6d0aed9bdc8d",
+      "target_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "relationship_type": "causation",
+      "weight": 0.664686,
+      "confidence": 0.9,
+      "semantic_similarity": 0.502282,
+      "metadata": {
+        "similarity_score": 0.5022820924232001,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "user",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "83d036db-9817-4643-9d66-6d0aed9bdc8d",
+      "target_id": "3fee9429-6a39-45bf-bff3-599c545556b5",
+      "relationship_type": "relevance",
+      "weight": 0.385672,
+      "confidence": 0.7,
+      "semantic_similarity": 0.592159,
+      "metadata": {
+        "similarity_score": 0.5921588916521427,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "83d036db-9817-4643-9d66-6d0aed9bdc8d",
+      "target_id": "bf3dd4ec-c800-45f9-981d-2387d3ddf90f",
+      "relationship_type": "relevance",
+      "weight": 0.753506,
+      "confidence": 0.6,
+      "semantic_similarity": 0.670139,
+      "metadata": {
+        "similarity_score": 0.6701392588993804,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance",
+          "user",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "83d036db-9817-4643-9d66-6d0aed9bdc8d",
+      "target_id": "7dca9ea7-00ce-4522-9412-808ba62006df",
+      "relationship_type": "dependency",
+      "weight": 0.841719,
+      "confidence": 0.7,
+      "semantic_similarity": 0.626217,
+      "metadata": {
+        "similarity_score": 0.6262171901563169,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "83d036db-9817-4643-9d66-6d0aed9bdc8d",
+      "target_id": "58866e0b-bea1-4cdb-b0da-88cd07440bee",
+      "relationship_type": "correlation",
+      "weight": 0.520755,
+      "confidence": 0.7,
+      "semantic_similarity": 0.434895,
+      "metadata": {
+        "similarity_score": 0.43489520395797354,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "target_id": "7c770636-9266-4e1e-8e92-146478243f1e",
+      "relationship_type": "relevance",
+      "weight": 0.758102,
+      "confidence": 0.9,
+      "semantic_similarity": 0.39744,
+      "metadata": {
+        "similarity_score": 0.3974403904251159,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "performance",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "target_id": "ef302742-8ea8-4fdb-9f56-07ffa5197cce",
+      "relationship_type": "temporal",
+      "weight": 0.548158,
+      "confidence": 0.7,
+      "semantic_similarity": 0.724735,
+      "metadata": {
+        "similarity_score": 0.7247354077130179,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "user",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "target_id": "ed380406-bf87-4352-a2a1-78ca7f090670",
+      "relationship_type": "relevance",
+      "weight": 0.324164,
+      "confidence": 0.7,
+      "semantic_similarity": 0.24483,
+      "metadata": {
+        "similarity_score": 0.24483023114222938,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "target_id": "58866e0b-bea1-4cdb-b0da-88cd07440bee",
+      "relationship_type": "dependency",
+      "weight": 0.676275,
+      "confidence": 0.7,
+      "semantic_similarity": 0.784156,
+      "metadata": {
+        "similarity_score": 0.784155576758512,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "target_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "relationship_type": "correlation",
+      "weight": 0.671033,
+      "confidence": 0.8,
+      "semantic_similarity": 0.765619,
+      "metadata": {
+        "similarity_score": 0.7656193853196569,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "target_id": "4262d074-6b7c-49f4-b364-9221e7c46922",
+      "relationship_type": "correlation",
+      "weight": 0.574446,
+      "confidence": 0.7,
+      "semantic_similarity": 0.259794,
+      "metadata": {
+        "similarity_score": 0.2597937295106748,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "643b139a-88ba-4141-bf7e-95e571435840",
+      "target_id": "cdb2acd9-07a4-45cb-9467-0946b39607c6",
+      "relationship_type": "dependency",
+      "weight": 0.70907,
+      "confidence": 0.8,
+      "semantic_similarity": 0.451571,
+      "metadata": {
+        "similarity_score": 0.4515710428916664,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "643b139a-88ba-4141-bf7e-95e571435840",
+      "target_id": "3ca8480d-de6d-4e8f-8358-2e80b3ac0e7b",
+      "relationship_type": "temporal",
+      "weight": 0.687979,
+      "confidence": 0.7,
+      "semantic_similarity": 0.372179,
+      "metadata": {
+        "similarity_score": 0.3721788355177438,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "643b139a-88ba-4141-bf7e-95e571435840",
+      "target_id": "f22ec8a8-9acb-4d3f-8e57-e487cc67bf56",
+      "relationship_type": "relevance",
+      "weight": 0.409928,
+      "confidence": 0.8,
+      "semantic_similarity": 0.324627,
+      "metadata": {
+        "similarity_score": 0.32462680671256117,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "performance",
+          "user",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "7c770636-9266-4e1e-8e92-146478243f1e",
+      "target_id": "9b14da7d-7637-4865-a821-d4b42d546d27",
+      "relationship_type": "dependency",
+      "weight": 0.393826,
+      "confidence": 0.7,
+      "semantic_similarity": 0.264342,
+      "metadata": {
+        "similarity_score": 0.2643421535893637,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "7c770636-9266-4e1e-8e92-146478243f1e",
+      "target_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "relationship_type": "temporal",
+      "weight": 0.876934,
+      "confidence": 0.9,
+      "semantic_similarity": 0.607873,
+      "metadata": {
+        "similarity_score": 0.607872714973382,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "7c770636-9266-4e1e-8e92-146478243f1e",
+      "target_id": "60b60eb8-b6ee-4032-9bfc-3e595a94097b",
+      "relationship_type": "correlation",
+      "weight": 0.83043,
+      "confidence": 0.7,
+      "semantic_similarity": 0.53251,
+      "metadata": {
+        "similarity_score": 0.5325103172701733,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "engagement",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "7c770636-9266-4e1e-8e92-146478243f1e",
+      "target_id": "3c03aba7-e8ae-41ce-8079-2e9ee96d4d28",
+      "relationship_type": "correlation",
+      "weight": 0.601657,
+      "confidence": 0.8,
+      "semantic_similarity": 0.401679,
+      "metadata": {
+        "similarity_score": 0.40167897833271227,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "growth",
+          "performance",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "7c770636-9266-4e1e-8e92-146478243f1e",
+      "target_id": "3ca8480d-de6d-4e8f-8358-2e80b3ac0e7b",
+      "relationship_type": "dependency",
+      "weight": 0.818864,
+      "confidence": 0.8,
+      "semantic_similarity": 0.410547,
+      "metadata": {
+        "similarity_score": 0.41054652491767285,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "7c770636-9266-4e1e-8e92-146478243f1e",
+      "target_id": "ced1abd6-68d2-4642-a5d5-c1aa1baf5831",
+      "relationship_type": "correlation",
+      "weight": 0.735291,
+      "confidence": 0.8,
+      "semantic_similarity": 0.285925,
+      "metadata": {
+        "similarity_score": 0.28592514832844423,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "71bba433-6705-44d3-83af-7e89ca0ff6cc",
+      "target_id": "4262d074-6b7c-49f4-b364-9221e7c46922",
+      "relationship_type": "correlation",
+      "weight": 0.57481,
+      "confidence": 0.9,
+      "semantic_similarity": 0.489908,
+      "metadata": {
+        "similarity_score": 0.4899084716993149,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "71bba433-6705-44d3-83af-7e89ca0ff6cc",
+      "target_id": "a3e2c1bb-17e4-421d-a923-45ebaa3aed0b",
+      "relationship_type": "causation",
+      "weight": 0.590642,
+      "confidence": 0.8,
+      "semantic_similarity": 0.584233,
+      "metadata": {
+        "similarity_score": 0.584233382328874,
+        "source_types": "metric-insight",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "71bba433-6705-44d3-83af-7e89ca0ff6cc",
+      "target_id": "e4e3d73a-0471-4ad7-bed8-fbf04d5a1c80",
+      "relationship_type": "correlation",
+      "weight": 0.442762,
+      "confidence": 0.7,
+      "semantic_similarity": 0.404313,
+      "metadata": {
+        "similarity_score": 0.40431330375739094,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "growth",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "ced1abd6-68d2-4642-a5d5-c1aa1baf5831",
+      "target_id": "e0c288ef-5b6c-42dc-a6b1-0441de8d3990",
+      "relationship_type": "relevance",
+      "weight": 0.374441,
+      "confidence": 0.8,
+      "semantic_similarity": 0.455726,
+      "metadata": {
+        "similarity_score": 0.45572559177036814,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "engagement",
+          "user",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "ced1abd6-68d2-4642-a5d5-c1aa1baf5831",
+      "target_id": "4c0db5c8-7fb7-40ef-8634-931c06849a8a",
+      "relationship_type": "temporal",
+      "weight": 0.689836,
+      "confidence": 0.8,
+      "semantic_similarity": 0.543486,
+      "metadata": {
+        "similarity_score": 0.5434857810725914,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "ced1abd6-68d2-4642-a5d5-c1aa1baf5831",
+      "target_id": "ef302742-8ea8-4fdb-9f56-07ffa5197cce",
+      "relationship_type": "dependency",
+      "weight": 0.480513,
+      "confidence": 0.7,
+      "semantic_similarity": 0.47837,
+      "metadata": {
+        "similarity_score": 0.478370066396253,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "e0c288ef-5b6c-42dc-a6b1-0441de8d3990",
+      "target_id": "f22ec8a8-9acb-4d3f-8e57-e487cc67bf56",
+      "relationship_type": "dependency",
+      "weight": 0.641317,
+      "confidence": 0.9,
+      "semantic_similarity": 0.488206,
+      "metadata": {
+        "similarity_score": 0.48820595116493787,
+        "source_types": "insight-insight",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "e0c288ef-5b6c-42dc-a6b1-0441de8d3990",
+      "target_id": "98077557-126c-4b80-9db4-d0f982da69ed",
+      "relationship_type": "temporal",
+      "weight": 0.733508,
+      "confidence": 0.8,
+      "semantic_similarity": 0.558059,
+      "metadata": {
+        "similarity_score": 0.5580592131056158,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "e0c288ef-5b6c-42dc-a6b1-0441de8d3990",
+      "target_id": "3fee9429-6a39-45bf-bff3-599c545556b5",
+      "relationship_type": "causation",
+      "weight": 0.410154,
+      "confidence": 0.8,
+      "semantic_similarity": 0.536869,
+      "metadata": {
+        "similarity_score": 0.5368687649933859,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "e0c288ef-5b6c-42dc-a6b1-0441de8d3990",
+      "target_id": "643b139a-88ba-4141-bf7e-95e571435840",
+      "relationship_type": "causation",
+      "weight": 0.351235,
+      "confidence": 0.9,
+      "semantic_similarity": 0.637072,
+      "metadata": {
+        "similarity_score": 0.6370722925034504,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "growth",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "e0c288ef-5b6c-42dc-a6b1-0441de8d3990",
+      "target_id": "7b78c48a-d86a-4a60-990f-5538a006a7fd",
+      "relationship_type": "dependency",
+      "weight": 0.77361,
+      "confidence": 0.6,
+      "semantic_similarity": 0.711712,
+      "metadata": {
+        "similarity_score": 0.711711539298606,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance",
+          "user",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "568f9b14-e440-4f2b-9d56-20721a6ae81c",
+      "target_id": "3c03aba7-e8ae-41ce-8079-2e9ee96d4d28",
+      "relationship_type": "causation",
+      "weight": 0.483828,
+      "confidence": 0.8,
+      "semantic_similarity": 0.592594,
+      "metadata": {
+        "similarity_score": 0.5925939629560071,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "growth",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "568f9b14-e440-4f2b-9d56-20721a6ae81c",
+      "target_id": "dc207cb4-3473-456c-ba33-6949cbc6dac9",
+      "relationship_type": "causation",
+      "weight": 0.853659,
+      "confidence": 0.8,
+      "semantic_similarity": 0.39968,
+      "metadata": {
+        "similarity_score": 0.39968030370644936,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "user",
+          "performance",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "568f9b14-e440-4f2b-9d56-20721a6ae81c",
+      "target_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "relationship_type": "relevance",
+      "weight": 0.387905,
+      "confidence": 0.9,
+      "semantic_similarity": 0.707846,
+      "metadata": {
+        "similarity_score": 0.7078459432482347,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "568f9b14-e440-4f2b-9d56-20721a6ae81c",
+      "target_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "relationship_type": "causation",
+      "weight": 0.898324,
+      "confidence": 0.8,
+      "semantic_similarity": 0.338539,
+      "metadata": {
+        "similarity_score": 0.33853851473255636,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "75029cb0-61c6-4c3d-a0e8-78130c51a017",
+      "target_id": "3fee9429-6a39-45bf-bff3-599c545556b5",
+      "relationship_type": "temporal",
+      "weight": 0.372062,
+      "confidence": 0.9,
+      "semantic_similarity": 0.47992,
+      "metadata": {
+        "similarity_score": 0.4799195328025891,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user",
+          "performance",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "75029cb0-61c6-4c3d-a0e8-78130c51a017",
+      "target_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "relationship_type": "causation",
+      "weight": 0.474805,
+      "confidence": 0.6,
+      "semantic_similarity": 0.622971,
+      "metadata": {
+        "similarity_score": 0.6229705200307647,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "75029cb0-61c6-4c3d-a0e8-78130c51a017",
+      "target_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "relationship_type": "dependency",
+      "weight": 0.66163,
+      "confidence": 0.7,
+      "semantic_similarity": 0.444654,
+      "metadata": {
+        "similarity_score": 0.4446539201163867,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "75029cb0-61c6-4c3d-a0e8-78130c51a017",
+      "target_id": "070b9295-4681-4956-8041-3e647c44861d",
+      "relationship_type": "relevance",
+      "weight": 0.649253,
+      "confidence": 0.7,
+      "semantic_similarity": 0.219522,
+      "metadata": {
+        "similarity_score": 0.21952183456746727,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "target_id": "3ca8480d-de6d-4e8f-8358-2e80b3ac0e7b",
+      "relationship_type": "correlation",
+      "weight": 0.677346,
+      "confidence": 0.8,
+      "semantic_similarity": 0.768421,
+      "metadata": {
+        "similarity_score": 0.768421250597096,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "engagement",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "target_id": "98077557-126c-4b80-9db4-d0f982da69ed",
+      "relationship_type": "temporal",
+      "weight": 0.870341,
+      "confidence": 0.7,
+      "semantic_similarity": 0.497034,
+      "metadata": {
+        "similarity_score": 0.4970338218045708,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "target_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "relationship_type": "relevance",
+      "weight": 0.694102,
+      "confidence": 0.8,
+      "semantic_similarity": 0.776763,
+      "metadata": {
+        "similarity_score": 0.776762658838646,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "f74d56ef-6360-4415-ac66-4edec0321b1f",
+      "target_id": "4262d074-6b7c-49f4-b364-9221e7c46922",
+      "relationship_type": "temporal",
+      "weight": 0.560969,
+      "confidence": 0.9,
+      "semantic_similarity": 0.766829,
+      "metadata": {
+        "similarity_score": 0.7668293551183727,
+        "source_types": "metric-insight",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "f74d56ef-6360-4415-ac66-4edec0321b1f",
+      "target_id": "7dca9ea7-00ce-4522-9412-808ba62006df",
+      "relationship_type": "relevance",
+      "weight": 0.408279,
+      "confidence": 0.8,
+      "semantic_similarity": 0.540644,
+      "metadata": {
+        "similarity_score": 0.5406444731131732,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "f74d56ef-6360-4415-ac66-4edec0321b1f",
+      "target_id": "568f9b14-e440-4f2b-9d56-20721a6ae81c",
+      "relationship_type": "temporal",
+      "weight": 0.548027,
+      "confidence": 0.8,
+      "semantic_similarity": 0.797165,
+      "metadata": {
+        "similarity_score": 0.7971646589888,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "f74d56ef-6360-4415-ac66-4edec0321b1f",
+      "target_id": "cdb2acd9-07a4-45cb-9467-0946b39607c6",
+      "relationship_type": "temporal",
+      "weight": 0.892507,
+      "confidence": 0.9,
+      "semantic_similarity": 0.655185,
+      "metadata": {
+        "similarity_score": 0.6551847719970839,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance",
+          "engagement",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "f74d56ef-6360-4415-ac66-4edec0321b1f",
+      "target_id": "7fd82c87-3f25-4f0a-8a52-64884156c514",
+      "relationship_type": "relevance",
+      "weight": 0.509886,
+      "confidence": 0.7,
+      "semantic_similarity": 0.767048,
+      "metadata": {
+        "similarity_score": 0.7670478890997241,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "user",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "f74d56ef-6360-4415-ac66-4edec0321b1f",
+      "target_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "relationship_type": "causation",
+      "weight": 0.542722,
+      "confidence": 0.8,
+      "semantic_similarity": 0.2196,
+      "metadata": {
+        "similarity_score": 0.21959955270919165,
+        "source_types": "metric-insight",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "f74d56ef-6360-4415-ac66-4edec0321b1f",
+      "target_id": "ced1abd6-68d2-4642-a5d5-c1aa1baf5831",
+      "relationship_type": "temporal",
+      "weight": 0.75797,
+      "confidence": 0.8,
+      "semantic_similarity": 0.54218,
+      "metadata": {
+        "similarity_score": 0.5421802233704978,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "f74d56ef-6360-4415-ac66-4edec0321b1f",
+      "target_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "relationship_type": "dependency",
+      "weight": 0.761848,
+      "confidence": 0.6,
+      "semantic_similarity": 0.251215,
+      "metadata": {
+        "similarity_score": 0.2512151657194598,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "3ca8480d-de6d-4e8f-8358-2e80b3ac0e7b",
+      "target_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "relationship_type": "temporal",
+      "weight": 0.52557,
+      "confidence": 0.7,
+      "semantic_similarity": 0.2271,
+      "metadata": {
+        "similarity_score": 0.2271004737736169,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "3ca8480d-de6d-4e8f-8358-2e80b3ac0e7b",
+      "target_id": "3c03aba7-e8ae-41ce-8079-2e9ee96d4d28",
+      "relationship_type": "dependency",
+      "weight": 0.762197,
+      "confidence": 0.8,
+      "semantic_similarity": 0.728334,
+      "metadata": {
+        "similarity_score": 0.7283342354854281,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "performance",
+          "user",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "3ca8480d-de6d-4e8f-8358-2e80b3ac0e7b",
+      "target_id": "83d036db-9817-4643-9d66-6d0aed9bdc8d",
+      "relationship_type": "temporal",
+      "weight": 0.379867,
+      "confidence": 0.7,
+      "semantic_similarity": 0.49803,
+      "metadata": {
+        "similarity_score": 0.49803027673394723,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "performance",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "3ca8480d-de6d-4e8f-8358-2e80b3ac0e7b",
+      "target_id": "7dca9ea7-00ce-4522-9412-808ba62006df",
+      "relationship_type": "temporal",
+      "weight": 0.834781,
+      "confidence": 0.7,
+      "semantic_similarity": 0.209753,
+      "metadata": {
+        "similarity_score": 0.20975313736098,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "target_id": "7dca9ea7-00ce-4522-9412-808ba62006df",
+      "relationship_type": "causation",
+      "weight": 0.367492,
+      "confidence": 0.8,
+      "semantic_similarity": 0.485989,
+      "metadata": {
+        "similarity_score": 0.4859885106201158,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "target_id": "3b725951-cb1f-4fcb-b6fd-afc33abe4c03",
+      "relationship_type": "causation",
+      "weight": 0.786429,
+      "confidence": 0.8,
+      "semantic_similarity": 0.271815,
+      "metadata": {
+        "similarity_score": 0.27181525254827854,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "target_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "relationship_type": "dependency",
+      "weight": 0.500385,
+      "confidence": 0.8,
+      "semantic_similarity": 0.381456,
+      "metadata": {
+        "similarity_score": 0.3814564586010025,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "target_id": "75029cb0-61c6-4c3d-a0e8-78130c51a017",
+      "relationship_type": "dependency",
+      "weight": 0.717217,
+      "confidence": 0.6,
+      "semantic_similarity": 0.409271,
+      "metadata": {
+        "similarity_score": 0.4092713266594125,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "target_id": "070b9295-4681-4956-8041-3e647c44861d",
+      "relationship_type": "correlation",
+      "weight": 0.587562,
+      "confidence": 0.7,
+      "semantic_similarity": 0.314654,
+      "metadata": {
+        "similarity_score": 0.31465380572651386,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "60b60eb8-b6ee-4032-9bfc-3e595a94097b",
+      "target_id": "356e834f-f215-4aeb-b57a-2d0b19f42b15",
+      "relationship_type": "causation",
+      "weight": 0.679667,
+      "confidence": 0.9,
+      "semantic_similarity": 0.682199,
+      "metadata": {
+        "similarity_score": 0.6821987513461958,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "60b60eb8-b6ee-4032-9bfc-3e595a94097b",
+      "target_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "relationship_type": "correlation",
+      "weight": 0.467318,
+      "confidence": 0.7,
+      "semantic_similarity": 0.581572,
+      "metadata": {
+        "similarity_score": 0.581571618659445,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "engagement",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "60b60eb8-b6ee-4032-9bfc-3e595a94097b",
+      "target_id": "7783a357-c618-4b3e-987d-1d0211465dd1",
+      "relationship_type": "relevance",
+      "weight": 0.752738,
+      "confidence": 0.9,
+      "semantic_similarity": 0.524821,
+      "metadata": {
+        "similarity_score": 0.5248211644287399,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "user",
+          "engagement",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "60b60eb8-b6ee-4032-9bfc-3e595a94097b",
+      "target_id": "58866e0b-bea1-4cdb-b0da-88cd07440bee",
+      "relationship_type": "correlation",
+      "weight": 0.389523,
+      "confidence": 0.6,
+      "semantic_similarity": 0.644721,
+      "metadata": {
+        "similarity_score": 0.644720568269088,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "user",
+          "performance",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "4262d074-6b7c-49f4-b364-9221e7c46922",
+      "target_id": "3fee9429-6a39-45bf-bff3-599c545556b5",
+      "relationship_type": "relevance",
+      "weight": 0.554805,
+      "confidence": 0.7,
+      "semantic_similarity": 0.773896,
+      "metadata": {
+        "similarity_score": 0.7738962621152015,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "4262d074-6b7c-49f4-b364-9221e7c46922",
+      "target_id": "ef302742-8ea8-4fdb-9f56-07ffa5197cce",
+      "relationship_type": "correlation",
+      "weight": 0.638802,
+      "confidence": 0.7,
+      "semantic_similarity": 0.672266,
+      "metadata": {
+        "similarity_score": 0.6722662663731176,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "growth",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "4262d074-6b7c-49f4-b364-9221e7c46922",
+      "target_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "relationship_type": "temporal",
+      "weight": 0.376799,
+      "confidence": 0.9,
+      "semantic_similarity": 0.766963,
+      "metadata": {
+        "similarity_score": 0.766962926005226,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "4262d074-6b7c-49f4-b364-9221e7c46922",
+      "target_id": "7b78c48a-d86a-4a60-990f-5538a006a7fd",
+      "relationship_type": "relevance",
+      "weight": 0.786352,
+      "confidence": 0.8,
+      "semantic_similarity": 0.342703,
+      "metadata": {
+        "similarity_score": 0.342702828389833,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "4262d074-6b7c-49f4-b364-9221e7c46922",
+      "target_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "relationship_type": "dependency",
+      "weight": 0.705061,
+      "confidence": 0.9,
+      "semantic_similarity": 0.667877,
+      "metadata": {
+        "similarity_score": 0.667876800144936,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "4262d074-6b7c-49f4-b364-9221e7c46922",
+      "target_id": "7c770636-9266-4e1e-8e92-146478243f1e",
+      "relationship_type": "temporal",
+      "weight": 0.794032,
+      "confidence": 0.8,
+      "semantic_similarity": 0.59294,
+      "metadata": {
+        "similarity_score": 0.5929399660468507,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "e64a109c-e4d4-48e5-b7fe-45dfafcfe2be",
+      "target_id": "f22ec8a8-9acb-4d3f-8e57-e487cc67bf56",
+      "relationship_type": "correlation",
+      "weight": 0.691958,
+      "confidence": 0.7,
+      "semantic_similarity": 0.495189,
+      "metadata": {
+        "similarity_score": 0.49518908454893956,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "e64a109c-e4d4-48e5-b7fe-45dfafcfe2be",
+      "target_id": "58866e0b-bea1-4cdb-b0da-88cd07440bee",
+      "relationship_type": "correlation",
+      "weight": 0.70456,
+      "confidence": 0.7,
+      "semantic_similarity": 0.459424,
+      "metadata": {
+        "similarity_score": 0.4594241839184441,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "e64a109c-e4d4-48e5-b7fe-45dfafcfe2be",
+      "target_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "relationship_type": "dependency",
+      "weight": 0.620635,
+      "confidence": 0.9,
+      "semantic_similarity": 0.342224,
+      "metadata": {
+        "similarity_score": 0.3422238826368641,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "e64a109c-e4d4-48e5-b7fe-45dfafcfe2be",
+      "target_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "relationship_type": "temporal",
+      "weight": 0.732713,
+      "confidence": 0.9,
+      "semantic_similarity": 0.484589,
+      "metadata": {
+        "similarity_score": 0.48458864554191766,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "e64a109c-e4d4-48e5-b7fe-45dfafcfe2be",
+      "target_id": "e4e3d73a-0471-4ad7-bed8-fbf04d5a1c80",
+      "relationship_type": "relevance",
+      "weight": 0.457176,
+      "confidence": 0.6,
+      "semantic_similarity": 0.710129,
+      "metadata": {
+        "similarity_score": 0.7101285175693222,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "e64a109c-e4d4-48e5-b7fe-45dfafcfe2be",
+      "target_id": "75029cb0-61c6-4c3d-a0e8-78130c51a017",
+      "relationship_type": "causation",
+      "weight": 0.46806,
+      "confidence": 0.9,
+      "semantic_similarity": 0.290654,
+      "metadata": {
+        "similarity_score": 0.2906537212187531,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "e64a109c-e4d4-48e5-b7fe-45dfafcfe2be",
+      "target_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "relationship_type": "relevance",
+      "weight": 0.461534,
+      "confidence": 0.8,
+      "semantic_similarity": 0.76478,
+      "metadata": {
+        "similarity_score": 0.7647803081210123,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "cdb2acd9-07a4-45cb-9467-0946b39607c6",
+      "target_id": "d27518da-182a-46a4-988d-075e75cf8083",
+      "relationship_type": "temporal",
+      "weight": 0.863732,
+      "confidence": 0.9,
+      "semantic_similarity": 0.684082,
+      "metadata": {
+        "similarity_score": 0.684081532487927,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "user",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "cdb2acd9-07a4-45cb-9467-0946b39607c6",
+      "target_id": "9b14da7d-7637-4865-a821-d4b42d546d27",
+      "relationship_type": "dependency",
+      "weight": 0.795984,
+      "confidence": 0.8,
+      "semantic_similarity": 0.733173,
+      "metadata": {
+        "similarity_score": 0.7331730862120354,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "user",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "cdb2acd9-07a4-45cb-9467-0946b39607c6",
+      "target_id": "75029cb0-61c6-4c3d-a0e8-78130c51a017",
+      "relationship_type": "correlation",
+      "weight": 0.35983,
+      "confidence": 0.6,
+      "semantic_similarity": 0.307892,
+      "metadata": {
+        "similarity_score": 0.30789223689496087,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "cdb2acd9-07a4-45cb-9467-0946b39607c6",
+      "target_id": "7fd82c87-3f25-4f0a-8a52-64884156c514",
+      "relationship_type": "causation",
+      "weight": 0.741617,
+      "confidence": 0.7,
+      "semantic_similarity": 0.591325,
+      "metadata": {
+        "similarity_score": 0.5913246109263525,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "cdb2acd9-07a4-45cb-9467-0946b39607c6",
+      "target_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "relationship_type": "temporal",
+      "weight": 0.763292,
+      "confidence": 0.8,
+      "semantic_similarity": 0.72368,
+      "metadata": {
+        "similarity_score": 0.7236800481797279,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance",
+          "user",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "cdb2acd9-07a4-45cb-9467-0946b39607c6",
+      "target_id": "e0c288ef-5b6c-42dc-a6b1-0441de8d3990",
+      "relationship_type": "temporal",
+      "weight": 0.390592,
+      "confidence": 0.7,
+      "semantic_similarity": 0.490356,
+      "metadata": {
+        "similarity_score": 0.4903560330025622,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "cdb2acd9-07a4-45cb-9467-0946b39607c6",
+      "target_id": "dc207cb4-3473-456c-ba33-6949cbc6dac9",
+      "relationship_type": "dependency",
+      "weight": 0.585447,
+      "confidence": 0.8,
+      "semantic_similarity": 0.691086,
+      "metadata": {
+        "similarity_score": 0.6910855202865167,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "performance",
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "cdb2acd9-07a4-45cb-9467-0946b39607c6",
+      "target_id": "568f9b14-e440-4f2b-9d56-20721a6ae81c",
+      "relationship_type": "temporal",
+      "weight": 0.61077,
+      "confidence": 0.7,
+      "semantic_similarity": 0.740056,
+      "metadata": {
+        "similarity_score": 0.740056396479692,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance",
+          "growth",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "58866e0b-bea1-4cdb-b0da-88cd07440bee",
+      "target_id": "f22ec8a8-9acb-4d3f-8e57-e487cc67bf56",
+      "relationship_type": "dependency",
+      "weight": 0.607749,
+      "confidence": 0.9,
+      "semantic_similarity": 0.206631,
+      "metadata": {
+        "similarity_score": 0.20663094448192595,
+        "source_types": "metric-insight",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "58866e0b-bea1-4cdb-b0da-88cd07440bee",
+      "target_id": "60b60eb8-b6ee-4032-9bfc-3e595a94097b",
+      "relationship_type": "correlation",
+      "weight": 0.577679,
+      "confidence": 0.8,
+      "semantic_similarity": 0.287685,
+      "metadata": {
+        "similarity_score": 0.287684929250997,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "58866e0b-bea1-4cdb-b0da-88cd07440bee",
+      "target_id": "643b139a-88ba-4141-bf7e-95e571435840",
+      "relationship_type": "correlation",
+      "weight": 0.811749,
+      "confidence": 0.7,
+      "semantic_similarity": 0.430519,
+      "metadata": {
+        "similarity_score": 0.4305191187577321,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "58866e0b-bea1-4cdb-b0da-88cd07440bee",
+      "target_id": "d27518da-182a-46a4-988d-075e75cf8083",
+      "relationship_type": "causation",
+      "weight": 0.688578,
+      "confidence": 0.7,
+      "semantic_similarity": 0.437754,
+      "metadata": {
+        "similarity_score": 0.43775380937756114,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "3c03aba7-e8ae-41ce-8079-2e9ee96d4d28",
+      "target_id": "9b14da7d-7637-4865-a821-d4b42d546d27",
+      "relationship_type": "relevance",
+      "weight": 0.677046,
+      "confidence": 0.7,
+      "semantic_similarity": 0.580738,
+      "metadata": {
+        "similarity_score": 0.5807383664096534,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "engagement",
+          "user",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "3c03aba7-e8ae-41ce-8079-2e9ee96d4d28",
+      "target_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "relationship_type": "correlation",
+      "weight": 0.494702,
+      "confidence": 0.8,
+      "semantic_similarity": 0.230009,
+      "metadata": {
+        "similarity_score": 0.23000901065689938,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "3c03aba7-e8ae-41ce-8079-2e9ee96d4d28",
+      "target_id": "cdb2acd9-07a4-45cb-9467-0946b39607c6",
+      "relationship_type": "correlation",
+      "weight": 0.639138,
+      "confidence": 0.9,
+      "semantic_similarity": 0.389005,
+      "metadata": {
+        "similarity_score": 0.3890053986377048,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "3c03aba7-e8ae-41ce-8079-2e9ee96d4d28",
+      "target_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "relationship_type": "temporal",
+      "weight": 0.657691,
+      "confidence": 0.9,
+      "semantic_similarity": 0.356965,
+      "metadata": {
+        "similarity_score": 0.356965471293895,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "3fee9429-6a39-45bf-bff3-599c545556b5",
+      "target_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "relationship_type": "relevance",
+      "weight": 0.761113,
+      "confidence": 0.7,
+      "semantic_similarity": 0.291025,
+      "metadata": {
+        "similarity_score": 0.2910245509411474,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "3fee9429-6a39-45bf-bff3-599c545556b5",
+      "target_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "relationship_type": "correlation",
+      "weight": 0.897329,
+      "confidence": 0.7,
+      "semantic_similarity": 0.686546,
+      "metadata": {
+        "similarity_score": 0.6865457184423932,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "3fee9429-6a39-45bf-bff3-599c545556b5",
+      "target_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "relationship_type": "relevance",
+      "weight": 0.358797,
+      "confidence": 0.8,
+      "semantic_similarity": 0.433471,
+      "metadata": {
+        "similarity_score": 0.43347109017380786,
+        "source_types": "metric-insight",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "3fee9429-6a39-45bf-bff3-599c545556b5",
+      "target_id": "f22ec8a8-9acb-4d3f-8e57-e487cc67bf56",
+      "relationship_type": "causation",
+      "weight": 0.394906,
+      "confidence": 0.6,
+      "semantic_similarity": 0.54133,
+      "metadata": {
+        "similarity_score": 0.5413301450291184,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "user",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "3fee9429-6a39-45bf-bff3-599c545556b5",
+      "target_id": "a3e2c1bb-17e4-421d-a923-45ebaa3aed0b",
+      "relationship_type": "correlation",
+      "weight": 0.512497,
+      "confidence": 0.8,
+      "semantic_similarity": 0.233868,
+      "metadata": {
+        "similarity_score": 0.23386843891002745,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "7b78c48a-d86a-4a60-990f-5538a006a7fd",
+      "target_id": "83d036db-9817-4643-9d66-6d0aed9bdc8d",
+      "relationship_type": "causation",
+      "weight": 0.737511,
+      "confidence": 0.7,
+      "semantic_similarity": 0.423754,
+      "metadata": {
+        "similarity_score": 0.42375383207699246,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance",
+          "growth",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "7b78c48a-d86a-4a60-990f-5538a006a7fd",
+      "target_id": "bf3dd4ec-c800-45f9-981d-2387d3ddf90f",
+      "relationship_type": "relevance",
+      "weight": 0.687348,
+      "confidence": 0.8,
+      "semantic_similarity": 0.416512,
+      "metadata": {
+        "similarity_score": 0.4165123293870261,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "7b78c48a-d86a-4a60-990f-5538a006a7fd",
+      "target_id": "cdb2acd9-07a4-45cb-9467-0946b39607c6",
+      "relationship_type": "temporal",
+      "weight": 0.861531,
+      "confidence": 0.7,
+      "semantic_similarity": 0.334914,
+      "metadata": {
+        "similarity_score": 0.3349141573114014,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "7b78c48a-d86a-4a60-990f-5538a006a7fd",
+      "target_id": "3b725951-cb1f-4fcb-b6fd-afc33abe4c03",
+      "relationship_type": "correlation",
+      "weight": 0.677576,
+      "confidence": 0.8,
+      "semantic_similarity": 0.577257,
+      "metadata": {
+        "similarity_score": 0.5772572590092344,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "7b78c48a-d86a-4a60-990f-5538a006a7fd",
+      "target_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "relationship_type": "relevance",
+      "weight": 0.54121,
+      "confidence": 0.8,
+      "semantic_similarity": 0.541897,
+      "metadata": {
+        "similarity_score": 0.541896733931865,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "7b78c48a-d86a-4a60-990f-5538a006a7fd",
+      "target_id": "f22ec8a8-9acb-4d3f-8e57-e487cc67bf56",
+      "relationship_type": "causation",
+      "weight": 0.65124,
+      "confidence": 0.7,
+      "semantic_similarity": 0.235528,
+      "metadata": {
+        "similarity_score": 0.23552810183713774,
+        "source_types": "metric-insight",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "e4e3d73a-0471-4ad7-bed8-fbf04d5a1c80",
+      "target_id": "a3e2c1bb-17e4-421d-a923-45ebaa3aed0b",
+      "relationship_type": "relevance",
+      "weight": 0.506965,
+      "confidence": 0.6,
+      "semantic_similarity": 0.612144,
+      "metadata": {
+        "similarity_score": 0.6121441999254607,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "growth",
+          "user",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "e4e3d73a-0471-4ad7-bed8-fbf04d5a1c80",
+      "target_id": "58866e0b-bea1-4cdb-b0da-88cd07440bee",
+      "relationship_type": "correlation",
+      "weight": 0.692101,
+      "confidence": 0.8,
+      "semantic_similarity": 0.260381,
+      "metadata": {
+        "similarity_score": 0.2603806453009541,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "e4e3d73a-0471-4ad7-bed8-fbf04d5a1c80",
+      "target_id": "7783a357-c618-4b3e-987d-1d0211465dd1",
+      "relationship_type": "relevance",
+      "weight": 0.490244,
+      "confidence": 0.9,
+      "semantic_similarity": 0.618056,
+      "metadata": {
+        "similarity_score": 0.6180561758403201,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user",
+          "engagement",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "e4e3d73a-0471-4ad7-bed8-fbf04d5a1c80",
+      "target_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "relationship_type": "relevance",
+      "weight": 0.436943,
+      "confidence": 0.6,
+      "semantic_similarity": 0.501823,
+      "metadata": {
+        "similarity_score": 0.5018234536816586,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "e4e3d73a-0471-4ad7-bed8-fbf04d5a1c80",
+      "target_id": "ced1abd6-68d2-4642-a5d5-c1aa1baf5831",
+      "relationship_type": "causation",
+      "weight": 0.672585,
+      "confidence": 0.6,
+      "semantic_similarity": 0.20662,
+      "metadata": {
+        "similarity_score": 0.2066195682593166,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "7783a357-c618-4b3e-987d-1d0211465dd1",
+      "target_id": "98077557-126c-4b80-9db4-d0f982da69ed",
+      "relationship_type": "dependency",
+      "weight": 0.448042,
+      "confidence": 0.7,
+      "semantic_similarity": 0.727153,
+      "metadata": {
+        "similarity_score": 0.7271529457397068,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "7783a357-c618-4b3e-987d-1d0211465dd1",
+      "target_id": "a3e2c1bb-17e4-421d-a923-45ebaa3aed0b",
+      "relationship_type": "temporal",
+      "weight": 0.828844,
+      "confidence": 0.6,
+      "semantic_similarity": 0.480843,
+      "metadata": {
+        "similarity_score": 0.4808427505632136,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "growth",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "7783a357-c618-4b3e-987d-1d0211465dd1",
+      "target_id": "4262d074-6b7c-49f4-b364-9221e7c46922",
+      "relationship_type": "relevance",
+      "weight": 0.30264,
+      "confidence": 0.6,
+      "semantic_similarity": 0.486221,
+      "metadata": {
+        "similarity_score": 0.4862211504499602,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "7783a357-c618-4b3e-987d-1d0211465dd1",
+      "target_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "relationship_type": "relevance",
+      "weight": 0.607371,
+      "confidence": 0.8,
+      "semantic_similarity": 0.714317,
+      "metadata": {
+        "similarity_score": 0.7143171799740464,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "7783a357-c618-4b3e-987d-1d0211465dd1",
+      "target_id": "7c770636-9266-4e1e-8e92-146478243f1e",
+      "relationship_type": "correlation",
+      "weight": 0.375641,
+      "confidence": 0.8,
+      "semantic_similarity": 0.444753,
+      "metadata": {
+        "similarity_score": 0.44475300471684653,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "d27518da-182a-46a4-988d-075e75cf8083",
+      "target_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "relationship_type": "correlation",
+      "weight": 0.672692,
+      "confidence": 0.8,
+      "semantic_similarity": 0.555076,
+      "metadata": {
+        "similarity_score": 0.5550760869481814,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "d27518da-182a-46a4-988d-075e75cf8083",
+      "target_id": "60b60eb8-b6ee-4032-9bfc-3e595a94097b",
+      "relationship_type": "causation",
+      "weight": 0.591802,
+      "confidence": 0.7,
+      "semantic_similarity": 0.683111,
+      "metadata": {
+        "similarity_score": 0.6831113783798418,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "growth",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "d27518da-182a-46a4-988d-075e75cf8083",
+      "target_id": "dc207cb4-3473-456c-ba33-6949cbc6dac9",
+      "relationship_type": "temporal",
+      "weight": 0.350952,
+      "confidence": 0.9,
+      "semantic_similarity": 0.20388,
+      "metadata": {
+        "similarity_score": 0.20388037232926548,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "d27518da-182a-46a4-988d-075e75cf8083",
+      "target_id": "7fd82c87-3f25-4f0a-8a52-64884156c514",
+      "relationship_type": "causation",
+      "weight": 0.737699,
+      "confidence": 0.6,
+      "semantic_similarity": 0.456906,
+      "metadata": {
+        "similarity_score": 0.45690632628429484,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "performance",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "d27518da-182a-46a4-988d-075e75cf8083",
+      "target_id": "98077557-126c-4b80-9db4-d0f982da69ed",
+      "relationship_type": "temporal",
+      "weight": 0.67014,
+      "confidence": 0.9,
+      "semantic_similarity": 0.435599,
+      "metadata": {
+        "similarity_score": 0.43559868554587694,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "d27518da-182a-46a4-988d-075e75cf8083",
+      "target_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "relationship_type": "correlation",
+      "weight": 0.538624,
+      "confidence": 0.8,
+      "semantic_similarity": 0.39667,
+      "metadata": {
+        "similarity_score": 0.396669776266237,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "engagement",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "d27518da-182a-46a4-988d-075e75cf8083",
+      "target_id": "bf3dd4ec-c800-45f9-981d-2387d3ddf90f",
+      "relationship_type": "correlation",
+      "weight": 0.316804,
+      "confidence": 0.8,
+      "semantic_similarity": 0.640402,
+      "metadata": {
+        "similarity_score": 0.640401684890402,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "d27518da-182a-46a4-988d-075e75cf8083",
+      "target_id": "afa5969b-81f8-41f3-838e-bc7e918ec6f5",
+      "relationship_type": "correlation",
+      "weight": 0.401963,
+      "confidence": 0.9,
+      "semantic_similarity": 0.411854,
+      "metadata": {
+        "similarity_score": 0.41185444399539084,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "target_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "relationship_type": "relevance",
+      "weight": 0.559879,
+      "confidence": 0.7,
+      "semantic_similarity": 0.388399,
+      "metadata": {
+        "similarity_score": 0.3883992549667854,
+        "source_types": "metric-insight",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "target_id": "070b9295-4681-4956-8041-3e647c44861d",
+      "relationship_type": "temporal",
+      "weight": 0.363282,
+      "confidence": 0.8,
+      "semantic_similarity": 0.781718,
+      "metadata": {
+        "similarity_score": 0.7817177501161245,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "engagement",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "target_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "relationship_type": "relevance",
+      "weight": 0.716004,
+      "confidence": 0.8,
+      "semantic_similarity": 0.786669,
+      "metadata": {
+        "similarity_score": 0.7866687796040659,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "target_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "relationship_type": "temporal",
+      "weight": 0.42481,
+      "confidence": 0.8,
+      "semantic_similarity": 0.43611,
+      "metadata": {
+        "similarity_score": 0.43610962012700394,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "target_id": "f74d56ef-6360-4415-ac66-4edec0321b1f",
+      "relationship_type": "temporal",
+      "weight": 0.370296,
+      "confidence": 0.8,
+      "semantic_similarity": 0.719966,
+      "metadata": {
+        "similarity_score": 0.7199660477107044,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "user",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "target_id": "ed380406-bf87-4352-a2a1-78ca7f090670",
+      "relationship_type": "correlation",
+      "weight": 0.870434,
+      "confidence": 0.9,
+      "semantic_similarity": 0.257389,
+      "metadata": {
+        "similarity_score": 0.25738877224929857,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "target_id": "ced1abd6-68d2-4642-a5d5-c1aa1baf5831",
+      "relationship_type": "dependency",
+      "weight": 0.580118,
+      "confidence": 0.8,
+      "semantic_similarity": 0.69309,
+      "metadata": {
+        "similarity_score": 0.6930901106002012,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "target_id": "f22ec8a8-9acb-4d3f-8e57-e487cc67bf56",
+      "relationship_type": "relevance",
+      "weight": 0.814313,
+      "confidence": 0.9,
+      "semantic_similarity": 0.679129,
+      "metadata": {
+        "similarity_score": 0.6791292879114542,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "performance",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "ed380406-bf87-4352-a2a1-78ca7f090670",
+      "target_id": "ef302742-8ea8-4fdb-9f56-07ffa5197cce",
+      "relationship_type": "dependency",
+      "weight": 0.330711,
+      "confidence": 0.7,
+      "semantic_similarity": 0.321086,
+      "metadata": {
+        "similarity_score": 0.3210860605255668,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "ed380406-bf87-4352-a2a1-78ca7f090670",
+      "target_id": "e4e3d73a-0471-4ad7-bed8-fbf04d5a1c80",
+      "relationship_type": "temporal",
+      "weight": 0.810002,
+      "confidence": 0.7,
+      "semantic_similarity": 0.262103,
+      "metadata": {
+        "similarity_score": 0.2621026953793768,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "ed380406-bf87-4352-a2a1-78ca7f090670",
+      "target_id": "bf3dd4ec-c800-45f9-981d-2387d3ddf90f",
+      "relationship_type": "causation",
+      "weight": 0.609183,
+      "confidence": 0.8,
+      "semantic_similarity": 0.59473,
+      "metadata": {
+        "similarity_score": 0.5947302382026038,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "ed380406-bf87-4352-a2a1-78ca7f090670",
+      "target_id": "83d036db-9817-4643-9d66-6d0aed9bdc8d",
+      "relationship_type": "correlation",
+      "weight": 0.694316,
+      "confidence": 0.9,
+      "semantic_similarity": 0.387006,
+      "metadata": {
+        "similarity_score": 0.3870060605145342,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "ed380406-bf87-4352-a2a1-78ca7f090670",
+      "target_id": "a3e2c1bb-17e4-421d-a923-45ebaa3aed0b",
+      "relationship_type": "temporal",
+      "weight": 0.617081,
+      "confidence": 0.9,
+      "semantic_similarity": 0.206335,
+      "metadata": {
+        "similarity_score": 0.20633481300202783,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "growth",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "ed380406-bf87-4352-a2a1-78ca7f090670",
+      "target_id": "ced1abd6-68d2-4642-a5d5-c1aa1baf5831",
+      "relationship_type": "temporal",
+      "weight": 0.714288,
+      "confidence": 0.6,
+      "semantic_similarity": 0.213,
+      "metadata": {
+        "similarity_score": 0.2130003532047497,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "ed380406-bf87-4352-a2a1-78ca7f090670",
+      "target_id": "643b139a-88ba-4141-bf7e-95e571435840",
+      "relationship_type": "relevance",
+      "weight": 0.394961,
+      "confidence": 0.7,
+      "semantic_similarity": 0.492973,
+      "metadata": {
+        "similarity_score": 0.49297292746378174,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "ed380406-bf87-4352-a2a1-78ca7f090670",
+      "target_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "relationship_type": "causation",
+      "weight": 0.726048,
+      "confidence": 0.7,
+      "semantic_similarity": 0.57751,
+      "metadata": {
+        "similarity_score": 0.5775101842365202,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "afa5969b-81f8-41f3-838e-bc7e918ec6f5",
+      "target_id": "4262d074-6b7c-49f4-b364-9221e7c46922",
+      "relationship_type": "causation",
+      "weight": 0.357975,
+      "confidence": 0.8,
+      "semantic_similarity": 0.781591,
+      "metadata": {
+        "similarity_score": 0.7815907811349441,
+        "source_types": "metric-insight",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "afa5969b-81f8-41f3-838e-bc7e918ec6f5",
+      "target_id": "3ca8480d-de6d-4e8f-8358-2e80b3ac0e7b",
+      "relationship_type": "causation",
+      "weight": 0.690212,
+      "confidence": 0.8,
+      "semantic_similarity": 0.673894,
+      "metadata": {
+        "similarity_score": 0.6738936140883737,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "afa5969b-81f8-41f3-838e-bc7e918ec6f5",
+      "target_id": "cdb2acd9-07a4-45cb-9467-0946b39607c6",
+      "relationship_type": "causation",
+      "weight": 0.332684,
+      "confidence": 0.9,
+      "semantic_similarity": 0.679461,
+      "metadata": {
+        "similarity_score": 0.6794611173992311,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "afa5969b-81f8-41f3-838e-bc7e918ec6f5",
+      "target_id": "7fd82c87-3f25-4f0a-8a52-64884156c514",
+      "relationship_type": "temporal",
+      "weight": 0.610887,
+      "confidence": 0.8,
+      "semantic_similarity": 0.613423,
+      "metadata": {
+        "similarity_score": 0.6134225141188105,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "afa5969b-81f8-41f3-838e-bc7e918ec6f5",
+      "target_id": "ef302742-8ea8-4fdb-9f56-07ffa5197cce",
+      "relationship_type": "dependency",
+      "weight": 0.765962,
+      "confidence": 0.8,
+      "semantic_similarity": 0.31532,
+      "metadata": {
+        "similarity_score": 0.31532027043775285,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "9b14da7d-7637-4865-a821-d4b42d546d27",
+      "target_id": "bf3dd4ec-c800-45f9-981d-2387d3ddf90f",
+      "relationship_type": "temporal",
+      "weight": 0.829318,
+      "confidence": 0.6,
+      "semantic_similarity": 0.796247,
+      "metadata": {
+        "similarity_score": 0.7962469478283309,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "9b14da7d-7637-4865-a821-d4b42d546d27",
+      "target_id": "7783a357-c618-4b3e-987d-1d0211465dd1",
+      "relationship_type": "dependency",
+      "weight": 0.692239,
+      "confidence": 0.7,
+      "semantic_similarity": 0.32827,
+      "metadata": {
+        "similarity_score": 0.3282701392760692,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "9b14da7d-7637-4865-a821-d4b42d546d27",
+      "target_id": "643b139a-88ba-4141-bf7e-95e571435840",
+      "relationship_type": "temporal",
+      "weight": 0.565206,
+      "confidence": 0.8,
+      "semantic_similarity": 0.291008,
+      "metadata": {
+        "similarity_score": 0.2910081271276675,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "9b14da7d-7637-4865-a821-d4b42d546d27",
+      "target_id": "f74d56ef-6360-4415-ac66-4edec0321b1f",
+      "relationship_type": "causation",
+      "weight": 0.36588,
+      "confidence": 0.9,
+      "semantic_similarity": 0.665492,
+      "metadata": {
+        "similarity_score": 0.6654916730890184,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "9b14da7d-7637-4865-a821-d4b42d546d27",
+      "target_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "relationship_type": "correlation",
+      "weight": 0.784421,
+      "confidence": 0.9,
+      "semantic_similarity": 0.48687,
+      "metadata": {
+        "similarity_score": 0.48686990014504655,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "growth",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "56749ab3-b1b0-4831-b8cb-cce33ae0ad5e",
+      "target_id": "ed380406-bf87-4352-a2a1-78ca7f090670",
+      "relationship_type": "relevance",
+      "weight": 0.825278,
+      "confidence": 0.9,
+      "semantic_similarity": 0.323385,
+      "metadata": {
+        "similarity_score": 0.32338477669499577,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "56749ab3-b1b0-4831-b8cb-cce33ae0ad5e",
+      "target_id": "3ca8480d-de6d-4e8f-8358-2e80b3ac0e7b",
+      "relationship_type": "causation",
+      "weight": 0.6036,
+      "confidence": 0.7,
+      "semantic_similarity": 0.450952,
+      "metadata": {
+        "similarity_score": 0.4509524711521564,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "56749ab3-b1b0-4831-b8cb-cce33ae0ad5e",
+      "target_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "relationship_type": "causation",
+      "weight": 0.635518,
+      "confidence": 0.8,
+      "semantic_similarity": 0.237491,
+      "metadata": {
+        "similarity_score": 0.2374910991896867,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user",
+          "engagement",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "dc207cb4-3473-456c-ba33-6949cbc6dac9",
+      "target_id": "3b725951-cb1f-4fcb-b6fd-afc33abe4c03",
+      "relationship_type": "temporal",
+      "weight": 0.806343,
+      "confidence": 0.7,
+      "semantic_similarity": 0.765089,
+      "metadata": {
+        "similarity_score": 0.7650894591100135,
+        "source_types": "insight-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "dc207cb4-3473-456c-ba33-6949cbc6dac9",
+      "target_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "relationship_type": "causation",
+      "weight": 0.34353,
+      "confidence": 0.6,
+      "semantic_similarity": 0.71109,
+      "metadata": {
+        "similarity_score": 0.7110897473069013,
+        "source_types": "insight-insight",
+        "shared_tags": [
+          "performance",
+          "user",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "dc207cb4-3473-456c-ba33-6949cbc6dac9",
+      "target_id": "7783a357-c618-4b3e-987d-1d0211465dd1",
+      "relationship_type": "relevance",
+      "weight": 0.541469,
+      "confidence": 0.8,
+      "semantic_similarity": 0.350531,
+      "metadata": {
+        "similarity_score": 0.35053096474599854,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance",
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "dc207cb4-3473-456c-ba33-6949cbc6dac9",
+      "target_id": "7dca9ea7-00ce-4522-9412-808ba62006df",
+      "relationship_type": "relevance",
+      "weight": 0.555238,
+      "confidence": 0.8,
+      "semantic_similarity": 0.333374,
+      "metadata": {
+        "similarity_score": 0.33337444326105437,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "user",
+          "growth",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "dc207cb4-3473-456c-ba33-6949cbc6dac9",
+      "target_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "relationship_type": "relevance",
+      "weight": 0.46849,
+      "confidence": 0.8,
+      "semantic_similarity": 0.415142,
+      "metadata": {
+        "similarity_score": 0.4151417461540874,
+        "source_types": "insight-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "dc207cb4-3473-456c-ba33-6949cbc6dac9",
+      "target_id": "71bba433-6705-44d3-83af-7e89ca0ff6cc",
+      "relationship_type": "dependency",
+      "weight": 0.688979,
+      "confidence": 0.9,
+      "semantic_similarity": 0.772621,
+      "metadata": {
+        "similarity_score": 0.7726206363169703,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance",
+          "growth",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "4c0db5c8-7fb7-40ef-8634-931c06849a8a",
+      "target_id": "afa5969b-81f8-41f3-838e-bc7e918ec6f5",
+      "relationship_type": "dependency",
+      "weight": 0.856993,
+      "confidence": 0.7,
+      "semantic_similarity": 0.334802,
+      "metadata": {
+        "similarity_score": 0.3348019258810666,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "performance",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "4c0db5c8-7fb7-40ef-8634-931c06849a8a",
+      "target_id": "ed380406-bf87-4352-a2a1-78ca7f090670",
+      "relationship_type": "causation",
+      "weight": 0.396863,
+      "confidence": 0.8,
+      "semantic_similarity": 0.389736,
+      "metadata": {
+        "similarity_score": 0.38973560964059606,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "4c0db5c8-7fb7-40ef-8634-931c06849a8a",
+      "target_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "relationship_type": "relevance",
+      "weight": 0.598554,
+      "confidence": 0.7,
+      "semantic_similarity": 0.286375,
+      "metadata": {
+        "similarity_score": 0.2863746632926085,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "4c0db5c8-7fb7-40ef-8634-931c06849a8a",
+      "target_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "relationship_type": "correlation",
+      "weight": 0.492047,
+      "confidence": 0.8,
+      "semantic_similarity": 0.296641,
+      "metadata": {
+        "similarity_score": 0.29664126770781996,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "4c0db5c8-7fb7-40ef-8634-931c06849a8a",
+      "target_id": "83d036db-9817-4643-9d66-6d0aed9bdc8d",
+      "relationship_type": "correlation",
+      "weight": 0.847871,
+      "confidence": 0.8,
+      "semantic_similarity": 0.735664,
+      "metadata": {
+        "similarity_score": 0.7356637256535374,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "target_id": "7c770636-9266-4e1e-8e92-146478243f1e",
+      "relationship_type": "relevance",
+      "weight": 0.595888,
+      "confidence": 0.8,
+      "semantic_similarity": 0.715061,
+      "metadata": {
+        "similarity_score": 0.7150606968281585,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "target_id": "e64a109c-e4d4-48e5-b7fe-45dfafcfe2be",
+      "relationship_type": "correlation",
+      "weight": 0.875621,
+      "confidence": 0.6,
+      "semantic_similarity": 0.782908,
+      "metadata": {
+        "similarity_score": 0.7829080350872182,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "target_id": "d27518da-182a-46a4-988d-075e75cf8083",
+      "relationship_type": "correlation",
+      "weight": 0.851225,
+      "confidence": 0.6,
+      "semantic_similarity": 0.373967,
+      "metadata": {
+        "similarity_score": 0.3739670090880226,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "target_id": "e0c288ef-5b6c-42dc-a6b1-0441de8d3990",
+      "relationship_type": "correlation",
+      "weight": 0.551274,
+      "confidence": 0.9,
+      "semantic_similarity": 0.498042,
+      "metadata": {
+        "similarity_score": 0.49804220749610234,
+        "source_types": "metric-insight",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "target_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "relationship_type": "temporal",
+      "weight": 0.816012,
+      "confidence": 0.6,
+      "semantic_similarity": 0.524411,
+      "metadata": {
+        "similarity_score": 0.5244114343960902,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "target_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "relationship_type": "correlation",
+      "weight": 0.310276,
+      "confidence": 0.8,
+      "semantic_similarity": 0.533666,
+      "metadata": {
+        "similarity_score": 0.5336658684583436,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "growth",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "target_id": "60b60eb8-b6ee-4032-9bfc-3e595a94097b",
+      "relationship_type": "dependency",
+      "weight": 0.558216,
+      "confidence": 0.6,
+      "semantic_similarity": 0.768046,
+      "metadata": {
+        "similarity_score": 0.7680455558335795,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "user",
+          "engagement",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "7fd82c87-3f25-4f0a-8a52-64884156c514",
+      "target_id": "7c770636-9266-4e1e-8e92-146478243f1e",
+      "relationship_type": "relevance",
+      "weight": 0.369574,
+      "confidence": 0.7,
+      "semantic_similarity": 0.425031,
+      "metadata": {
+        "similarity_score": 0.4250308228164575,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "performance",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "7fd82c87-3f25-4f0a-8a52-64884156c514",
+      "target_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "relationship_type": "causation",
+      "weight": 0.891283,
+      "confidence": 0.7,
+      "semantic_similarity": 0.569874,
+      "metadata": {
+        "similarity_score": 0.5698736834309348,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "7fd82c87-3f25-4f0a-8a52-64884156c514",
+      "target_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "relationship_type": "correlation",
+      "weight": 0.830442,
+      "confidence": 0.7,
+      "semantic_similarity": 0.276701,
+      "metadata": {
+        "similarity_score": 0.27670119939787147,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "356e834f-f215-4aeb-b57a-2d0b19f42b15",
+      "target_id": "afa5969b-81f8-41f3-838e-bc7e918ec6f5",
+      "relationship_type": "relevance",
+      "weight": 0.458346,
+      "confidence": 0.7,
+      "semantic_similarity": 0.295885,
+      "metadata": {
+        "similarity_score": 0.29588517948275717,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "356e834f-f215-4aeb-b57a-2d0b19f42b15",
+      "target_id": "56749ab3-b1b0-4831-b8cb-cce33ae0ad5e",
+      "relationship_type": "relevance",
+      "weight": 0.662312,
+      "confidence": 0.8,
+      "semantic_similarity": 0.298447,
+      "metadata": {
+        "similarity_score": 0.29844656018724885,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "356e834f-f215-4aeb-b57a-2d0b19f42b15",
+      "target_id": "f2621da3-9c0d-457c-839d-56a05e8467e2",
+      "relationship_type": "temporal",
+      "weight": 0.329288,
+      "confidence": 0.9,
+      "semantic_similarity": 0.519126,
+      "metadata": {
+        "similarity_score": 0.5191255345285728,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "engagement",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "356e834f-f215-4aeb-b57a-2d0b19f42b15",
+      "target_id": "e64a109c-e4d4-48e5-b7fe-45dfafcfe2be",
+      "relationship_type": "causation",
+      "weight": 0.428721,
+      "confidence": 0.9,
+      "semantic_similarity": 0.201994,
+      "metadata": {
+        "similarity_score": 0.20199373961517053,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "356e834f-f215-4aeb-b57a-2d0b19f42b15",
+      "target_id": "e0c288ef-5b6c-42dc-a6b1-0441de8d3990",
+      "relationship_type": "temporal",
+      "weight": 0.724689,
+      "confidence": 0.6,
+      "semantic_similarity": 0.624469,
+      "metadata": {
+        "similarity_score": 0.6244694098415122,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "356e834f-f215-4aeb-b57a-2d0b19f42b15",
+      "target_id": "ef302742-8ea8-4fdb-9f56-07ffa5197cce",
+      "relationship_type": "relevance",
+      "weight": 0.578544,
+      "confidence": 0.8,
+      "semantic_similarity": 0.385168,
+      "metadata": {
+        "similarity_score": 0.3851682415709481,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "356e834f-f215-4aeb-b57a-2d0b19f42b15",
+      "target_id": "7b78c48a-d86a-4a60-990f-5538a006a7fd",
+      "relationship_type": "temporal",
+      "weight": 0.836598,
+      "confidence": 0.7,
+      "semantic_similarity": 0.23366,
+      "metadata": {
+        "similarity_score": 0.23365992428664345,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "bf3dd4ec-c800-45f9-981d-2387d3ddf90f",
+      "target_id": "75029cb0-61c6-4c3d-a0e8-78130c51a017",
+      "relationship_type": "correlation",
+      "weight": 0.528826,
+      "confidence": 0.9,
+      "semantic_similarity": 0.512854,
+      "metadata": {
+        "similarity_score": 0.5128538170504844,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "bf3dd4ec-c800-45f9-981d-2387d3ddf90f",
+      "target_id": "71bba433-6705-44d3-83af-7e89ca0ff6cc",
+      "relationship_type": "correlation",
+      "weight": 0.318344,
+      "confidence": 0.6,
+      "semantic_similarity": 0.602144,
+      "metadata": {
+        "similarity_score": 0.6021439938930276,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "bf3dd4ec-c800-45f9-981d-2387d3ddf90f",
+      "target_id": "d34e5d59-c44c-4766-bcb0-5e01098978f5",
+      "relationship_type": "relevance",
+      "weight": 0.616739,
+      "confidence": 0.6,
+      "semantic_similarity": 0.705822,
+      "metadata": {
+        "similarity_score": 0.7058223255628977,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance",
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "bf3dd4ec-c800-45f9-981d-2387d3ddf90f",
+      "target_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "relationship_type": "correlation",
+      "weight": 0.382219,
+      "confidence": 0.7,
+      "semantic_similarity": 0.222902,
+      "metadata": {
+        "similarity_score": 0.22290175407673135,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "bf3dd4ec-c800-45f9-981d-2387d3ddf90f",
+      "target_id": "ef302742-8ea8-4fdb-9f56-07ffa5197cce",
+      "relationship_type": "relevance",
+      "weight": 0.636538,
+      "confidence": 0.7,
+      "semantic_similarity": 0.768986,
+      "metadata": {
+        "similarity_score": 0.7689855168176443,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "bf3dd4ec-c800-45f9-981d-2387d3ddf90f",
+      "target_id": "dc207cb4-3473-456c-ba33-6949cbc6dac9",
+      "relationship_type": "dependency",
+      "weight": 0.325536,
+      "confidence": 0.9,
+      "semantic_similarity": 0.259077,
+      "metadata": {
+        "similarity_score": 0.2590769078964847,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "user",
+          "performance",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "bf3dd4ec-c800-45f9-981d-2387d3ddf90f",
+      "target_id": "608c19bf-93f6-43ec-94d0-2027dfcab5fb",
+      "relationship_type": "relevance",
+      "weight": 0.380324,
+      "confidence": 0.7,
+      "semantic_similarity": 0.273316,
+      "metadata": {
+        "similarity_score": 0.2733162750654331,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "bf3dd4ec-c800-45f9-981d-2387d3ddf90f",
+      "target_id": "4c0db5c8-7fb7-40ef-8634-931c06849a8a",
+      "relationship_type": "correlation",
+      "weight": 0.893733,
+      "confidence": 0.7,
+      "semantic_similarity": 0.202065,
+      "metadata": {
+        "similarity_score": 0.20206484990308485,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "7dca9ea7-00ce-4522-9412-808ba62006df",
+      "target_id": "3b725951-cb1f-4fcb-b6fd-afc33abe4c03",
+      "relationship_type": "relevance",
+      "weight": 0.76059,
+      "confidence": 0.8,
+      "semantic_similarity": 0.640952,
+      "metadata": {
+        "similarity_score": 0.6409516542108762,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "7dca9ea7-00ce-4522-9412-808ba62006df",
+      "target_id": "4c0db5c8-7fb7-40ef-8634-931c06849a8a",
+      "relationship_type": "temporal",
+      "weight": 0.467772,
+      "confidence": 0.9,
+      "semantic_similarity": 0.363613,
+      "metadata": {
+        "similarity_score": 0.36361302852456423,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "7dca9ea7-00ce-4522-9412-808ba62006df",
+      "target_id": "3fee9429-6a39-45bf-bff3-599c545556b5",
+      "relationship_type": "temporal",
+      "weight": 0.881277,
+      "confidence": 0.6,
+      "semantic_similarity": 0.316872,
+      "metadata": {
+        "similarity_score": 0.31687231779319,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "7dca9ea7-00ce-4522-9412-808ba62006df",
+      "target_id": "b76ccc9c-544b-4ef4-ace6-75732a0efcb3",
+      "relationship_type": "temporal",
+      "weight": 0.501423,
+      "confidence": 0.9,
+      "semantic_similarity": 0.458179,
+      "metadata": {
+        "similarity_score": 0.4581792593850007,
+        "source_types": "metric-insight",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "7dca9ea7-00ce-4522-9412-808ba62006df",
+      "target_id": "75029cb0-61c6-4c3d-a0e8-78130c51a017",
+      "relationship_type": "relevance",
+      "weight": 0.410211,
+      "confidence": 0.8,
+      "semantic_similarity": 0.508499,
+      "metadata": {
+        "similarity_score": 0.5084986978673713,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "98077557-126c-4b80-9db4-d0f982da69ed",
+      "target_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "relationship_type": "temporal",
+      "weight": 0.448282,
+      "confidence": 0.8,
+      "semantic_similarity": 0.737854,
+      "metadata": {
+        "similarity_score": 0.7378544209904538,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "98077557-126c-4b80-9db4-d0f982da69ed",
+      "target_id": "070b9295-4681-4956-8041-3e647c44861d",
+      "relationship_type": "temporal",
+      "weight": 0.750553,
+      "confidence": 0.8,
+      "semantic_similarity": 0.759433,
+      "metadata": {
+        "similarity_score": 0.7594333386334318,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "98077557-126c-4b80-9db4-d0f982da69ed",
+      "target_id": "afa5969b-81f8-41f3-838e-bc7e918ec6f5",
+      "relationship_type": "causation",
+      "weight": 0.624215,
+      "confidence": 0.8,
+      "semantic_similarity": 0.440417,
+      "metadata": {
+        "similarity_score": 0.4404173908916115,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "a3e2c1bb-17e4-421d-a923-45ebaa3aed0b",
+      "target_id": "d27518da-182a-46a4-988d-075e75cf8083",
+      "relationship_type": "dependency",
+      "weight": 0.344502,
+      "confidence": 0.9,
+      "semantic_similarity": 0.294528,
+      "metadata": {
+        "similarity_score": 0.29452824992032267,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "a3e2c1bb-17e4-421d-a923-45ebaa3aed0b",
+      "target_id": "f74d56ef-6360-4415-ac66-4edec0321b1f",
+      "relationship_type": "relevance",
+      "weight": 0.829043,
+      "confidence": 0.7,
+      "semantic_similarity": 0.796338,
+      "metadata": {
+        "similarity_score": 0.7963381793697912,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance",
+          "user",
+          "growth"
+        ]
+      }
+    },
+    {
+      "source_id": "a3e2c1bb-17e4-421d-a923-45ebaa3aed0b",
+      "target_id": "568f9b14-e440-4f2b-9d56-20721a6ae81c",
+      "relationship_type": "causation",
+      "weight": 0.599825,
+      "confidence": 0.8,
+      "semantic_similarity": 0.584029,
+      "metadata": {
+        "similarity_score": 0.5840288075409413,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "engagement",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "a3e2c1bb-17e4-421d-a923-45ebaa3aed0b",
+      "target_id": "120ed84c-e911-45bc-b2c0-e2eb7b3480e6",
+      "relationship_type": "correlation",
+      "weight": 0.397704,
+      "confidence": 0.8,
+      "semantic_similarity": 0.667484,
+      "metadata": {
+        "similarity_score": 0.6674839802367033,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "a3e2c1bb-17e4-421d-a923-45ebaa3aed0b",
+      "target_id": "83d036db-9817-4643-9d66-6d0aed9bdc8d",
+      "relationship_type": "causation",
+      "weight": 0.475071,
+      "confidence": 0.6,
+      "semantic_similarity": 0.607328,
+      "metadata": {
+        "similarity_score": 0.6073279911508336,
+        "source_types": "insight-metric",
+        "shared_tags": [
+          "growth",
+          "performance"
+        ]
+      }
+    },
+    {
+      "source_id": "070b9295-4681-4956-8041-3e647c44861d",
+      "target_id": "afa5969b-81f8-41f3-838e-bc7e918ec6f5",
+      "relationship_type": "correlation",
+      "weight": 0.355479,
+      "confidence": 0.8,
+      "semantic_similarity": 0.509939,
+      "metadata": {
+        "similarity_score": 0.5099388743244637,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "growth",
+          "performance",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "070b9295-4681-4956-8041-3e647c44861d",
+      "target_id": "a27ccca5-8056-40b5-a9c2-2a11e6a7a964",
+      "relationship_type": "relevance",
+      "weight": 0.31048,
+      "confidence": 0.7,
+      "semantic_similarity": 0.745967,
+      "metadata": {
+        "similarity_score": 0.7459666952524282,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "070b9295-4681-4956-8041-3e647c44861d",
+      "target_id": "7783a357-c618-4b3e-987d-1d0211465dd1",
+      "relationship_type": "causation",
+      "weight": 0.315619,
+      "confidence": 0.6,
+      "semantic_similarity": 0.471412,
+      "metadata": {
+        "similarity_score": 0.47141201643842795,
+        "source_types": "metric-metric",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "ef302742-8ea8-4fdb-9f56-07ffa5197cce",
+      "target_id": "ed380406-bf87-4352-a2a1-78ca7f090670",
+      "relationship_type": "temporal",
+      "weight": 0.882834,
+      "confidence": 0.6,
+      "semantic_similarity": 0.436848,
+      "metadata": {
+        "similarity_score": 0.43684786587848085,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user"
+        ]
+      }
+    },
+    {
+      "source_id": "ef302742-8ea8-4fdb-9f56-07ffa5197cce",
+      "target_id": "3fee9429-6a39-45bf-bff3-599c545556b5",
+      "relationship_type": "causation",
+      "weight": 0.422312,
+      "confidence": 0.9,
+      "semantic_similarity": 0.287412,
+      "metadata": {
+        "similarity_score": 0.28741164832494015,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "user",
+          "performance",
+          "engagement"
+        ]
+      }
+    },
+    {
+      "source_id": "ef302742-8ea8-4fdb-9f56-07ffa5197cce",
+      "target_id": "60b60eb8-b6ee-4032-9bfc-3e595a94097b",
+      "relationship_type": "correlation",
+      "weight": 0.425864,
+      "confidence": 0.9,
+      "semantic_similarity": 0.243518,
+      "metadata": {
+        "similarity_score": 0.24351835941326544,
+        "source_types": "metric-insight",
+        "shared_tags": []
+      }
+    },
+    {
+      "source_id": "ef302742-8ea8-4fdb-9f56-07ffa5197cce",
+      "target_id": "56749ab3-b1b0-4831-b8cb-cce33ae0ad5e",
+      "relationship_type": "causation",
+      "weight": 0.530041,
+      "confidence": 0.8,
+      "semantic_similarity": 0.245196,
+      "metadata": {
+        "similarity_score": 0.24519587983542673,
+        "source_types": "metric-metric",
+        "shared_tags": [
+          "engagement"
+        ]
+      }
+    }
+  ]
+}

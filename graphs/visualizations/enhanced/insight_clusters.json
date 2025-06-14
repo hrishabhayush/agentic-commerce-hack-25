@@ -1,0 +1,65 @@
+{
+  "investors": {
+    "cluster_count": 1,
+    "clusters": [
+      {
+        "name": "Financial Opportunity Analysis",
+        "priority": "high",
+        "description": "Insights for investors focusing on opportunity, expansion",
+        "node_count": 5,
+        "key_metrics": [
+          "Monthly Recurring Revenue grew 25.1% QoQ to $233,3... (from stripe_api)",
+          "Daily Active Users grew 22.4% to 1247 users... (from mixpanel_api)"
+        ],
+        "actionable_insights": [
+          "Highlight growth metrics in investor updates",
+          "Emphasize positive performance trends"
+        ]
+      }
+    ]
+  },
+  "customers": {
+    "cluster_count": 2,
+    "clusters": [
+      {
+        "name": "Product Features Analysis",
+        "priority": "high",
+        "description": "Insights for customers focusing on features, adoption",
+        "node_count": 4,
+        "key_metrics": [
+          "custom_alerts_engine has 29.9% adoption rate... (from amplitude_api)",
+          "real_time_dashboard has 64.0% adoption rate... (from amplitude_api)",
+          "conversion_funnel_analyzer has 41.9% adoption rate... (from amplitude_api)"
+        ],
+        "actionable_insights": [
+          "Consider user feedback for product roadmap",
+          "Monitor features metrics regularly",
+          "Consider customers perspective in future analysis"
+        ]
+      },
+      {
+        "name": "Product Satisfaction Analysis",
+        "priority": "high",
+        "description": "Insights for customers focusing on satisfaction, support",
+        "node_count": 2,
+        "key_metrics": [
+          "Customer support satisfaction: 4.6/5.0... (from zendesk_api)",
+          "Team size: 25 employees with 4.2/5.0 satisfaction... (from internal_systems)"
+        ],
+        "actionable_insights": [
+          "Consider user feedback for product roadmap",
+          "Monitor satisfaction metrics regularly",
+          "Consider customers perspective in future analysis"
+        ]
+      }
+    ]
+  },
+  "internal_team": {
+    "cluster_count": 0,
+    "clusters": []
+  },
+  "developer_community": {
+    "cluster_count": 0,
+    "clusters": []
+  }
+}

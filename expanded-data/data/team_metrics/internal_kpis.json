@@ -1,0 +1,232 @@
+{
+  "source": "internal_systems",
+  "data_type": "team_performance_kpis",
+  "time_period": "q1_2024",
+  "team_overview": {
+    "total_employees": 25,
+    "new_hires_quarter": 4,
+    "departures_quarter": 1,
+    "open_positions": 3,
+    "employee_satisfaction": 4.2,
+    "retention_rate": 92.3
+  },
+  "department_breakdown": [
+    {
+      "department": "engineering",
+      "headcount": 12,
+      "productivity_metrics": {
+        "story_points_completed": 167,
+        "sprint_velocity_avg": 28.5,
+        "code_review_cycle_time_hours": 14.2,
+        "deployment_frequency_per_week": 3.2,
+        "bug_escape_rate": 2.1
+      },
+      "team_health": {
+        "satisfaction_score": 4.3,
+        "burnout_risk": "low",
+        "skill_development_hours": 18.4,
+        "internal_promotion_rate": 16.7
+      },
+      "key_achievements": [
+        "Real-time dashboard launch delivered on time",
+        "API response time improved by 35%",
+        "Zero critical security vulnerabilities"
+      ],
+      "blockers": [
+        "Limited QA resources for testing new integrations",
+        "Technical debt in legacy analytics engine"
+      ]
+    },
+    {
+      "department": "sales",
+      "headcount": 4,
+      "productivity_metrics": {
+        "new_customers_acquired": 29,
+        "pipeline_value": 890000,
+        "average_deal_size": 4200,
+        "sales_cycle_days": 34.2,
+        "win_rate": 23.7
+      },
+      "team_health": {
+        "satisfaction_score": 4.0,
+        "burnout_risk": "medium",
+        "quota_attainment": 118.5,
+        "ramp_time_new_hires_days": 67
+      },
+      "key_achievements": [
+        "Exceeded Q1 revenue target by 18.5%",
+        "Closed largest enterprise deal ($15K ARR)",
+        "Improved lead qualification process"
+      ],
+      "blockers": [
+        "Need better competitive battlecards",
+        "Demo environment stability issues"
+      ]
+    },
+    {
+      "department": "marketing",
+      "headcount": 3,
+      "productivity_metrics": {
+        "marketing_qualified_leads": 156,
+        "cost_per_lead": 127,
+        "lead_to_customer_conversion": 18.6,
+        "organic_traffic_growth": 34.2,
+        "content_pieces_published": 12
+      },
+      "team_health": {
+        "satisfaction_score": 4.5,
+        "burnout_risk": "low",
+        "campaign_success_rate": 72.3,
+        "cross_team_collaboration": 4.1
+      },
+      "key_achievements": [
+        "Product Hunt launch generated 234 signups",
+        "SEO improvements boosted organic traffic 34%",
+        "New case study increased conversion 12%"
+      ],
+      "blockers": [
+        "Limited budget for paid advertising",
+        "Need better attribution tracking"
+      ]
+    },
+    {
+      "department": "customer_success",
+      "headcount": 4,
+      "productivity_metrics": {
+        "customer_health_score": 8.1,
+        "churn_rate": 2.4,
+        "expansion_revenue_rate": 112.8,
+        "support_ticket_resolution_time": 8.4,
+        "nps_score": 67
+      },
+      "team_health": {
+        "satisfaction_score": 4.4,
+        "burnout_risk": "low",
+        "customer_satisfaction": 4.6,
+        "proactive_outreach_rate": 78.9
+      },
+      "key_achievements": [
+        "Reduced churn from 3.2% to 2.4%",
+        "Launched new onboarding flow",
+        "Achieved highest NPS score (67)"
+      ],
+      "blockers": [
+        "Manual processes for health scoring",
+        "Need better customer data integration"
+      ]
+    },
+    {
+      "department": "leadership",
+      "headcount": 2,
+      "strategic_metrics": {
+        "okr_completion_rate": 83.3,
+        "board_meeting_readiness": 4.2,
+        "investor_communication_frequency": "monthly",
+        "strategic_initiative_progress": 76.4,
+        "team_alignment_score": 4.1
+      },
+      "focus_areas": [
+        "Series A preparation and fundraising",
+        "Product-market fit optimization",
+        "Team scaling and culture",
+        "Competitive positioning"
+      ]
+    }
+  ],
+  "company_wide_initiatives": [
+    {
+      "initiative": "woocommerce_integration",
+      "status": "planning",
+      "completion_percentage": 15.0,
+      "assigned_team": "engineering",
+      "expected_completion": "2024-06-15",
+      "business_impact": "high",
+      "resource_allocation": 40.0
+    },
+    {
+      "initiative": "ai_powered_insights",
+      "status": "research",
+      "completion_percentage": 8.0,
+      "assigned_team": "engineering",
+      "expected_completion": "2024-09-30",
+      "business_impact": "very_high",
+      "resource_allocation": 25.0
+    },
+    {
+      "initiative": "enterprise_sales_playbook",
+      "status": "in_progress",
+      "completion_percentage": 65.0,
+      "assigned_team": "sales",
+      "expected_completion": "2024-04-30",
+      "business_impact": "high",
+      "resource_allocation": 30.0
+    }
+  ],
+  "financial_operations": {
+    "burn_rate_monthly": 187500,
+    "runway_months": 18.2,
+    "cash_position": 3420000,
+    "revenue_per_employee": 112000,
+    "gross_margin": 84.7,
+    "operating_margin": -23.4
+  },
+  "growth_metrics": {
+    "month_over_month_growth": 8.2,
+    "quarter_over_quarter_growth": 25.1,
+    "year_over_year_growth": 187.3,
+    "customer_acquisition_rate": 6.4,
+    "market_penetration": 2.8
+  },
+  "risk_assessment": [
+    {
+      "risk": "key_talent_retention",
+      "probability": 0.3,
+      "impact": "high",
+      "mitigation": "Equity refresh program, career development paths",
+      "owner": "leadership"
+    },
+    {
+      "risk": "competitive_pressure_pricing",
+      "probability": 0.6,
+      "impact": "medium",
+      "mitigation": "Value-based selling, feature differentiation",
+      "owner": "sales"
+    },
+    {
+      "risk": "technical_debt_scalability",
+      "probability": 0.4,
+      "impact": "high",
+      "mitigation": "Dedicated tech debt sprints, architecture review",
+      "owner": "engineering"
+    }
+  ],
+  "insights": [
+    {
+      "type": "team_performance",
+      "content": "Engineering velocity increased 23% after new hire onboarding",
+      "confidence": 0.91,
+      "supporting_data": "Sprint velocity from 23.2 to 28.5 points",
+      "action_recommendation": "Continue optimized onboarding process"
+    },
+    {
+      "type": "operational_efficiency",
+      "content": "Customer success initiatives driving churn reduction success",
+      "confidence": 0.89,
+      "supporting_data": "Churn decreased from 3.2% to 2.4% in Q1",
+      "action_recommendation": "Scale successful onboarding improvements"
+    },
+    {
+      "type": "strategic_focus",
+      "content": "WooCommerce integration critical for competitive positioning",
+      "confidence": 0.94,
+      "supporting_data": "23 customer requests, $180K revenue potential",
+      "action_recommendation": "Prioritize resources for Q2 delivery"
+    }
+  ],
+  "metadata": {
+    "data_sources": ["slack_analytics", "jira", "hubspot", "greenhouse", "quickbooks"],
+    "collection_frequency": "weekly",
+    "data_accuracy": 0.95,
+    "confidentiality": "internal_only"
+  }
+} 

@@ -1,0 +1,123 @@
+{
+  "source": "amplitude_api",
+  "data_type": "feature_adoption",
+  "time_period": "q1_2024",
+  "features": [
+    {
+      "feature_name": "real_time_dashboard",
+      "launch_date": "2023-12-15",
+      "adoption_metrics": {
+        "total_users_exposed": 1247,
+        "active_users": 798,
+        "adoption_rate": 64.0,
+        "time_to_first_use_avg_days": 2.3,
+        "weekly_retention": 78.2
+      },
+      "engagement_depth": {
+        "power_users": 234,
+        "regular_users": 564,
+        "trial_users": 449
+      },
+      "business_impact": {
+        "customer_satisfaction_increase": 12.5,
+        "support_ticket_reduction": 18.7,
+        "upsell_correlation": 0.73
+      }
+    },
+    {
+      "feature_name": "conversion_funnel_analyzer", 
+      "launch_date": "2023-11-20",
+      "adoption_metrics": {
+        "total_users_exposed": 1247,
+        "active_users": 523,
+        "adoption_rate": 41.9,
+        "time_to_first_use_avg_days": 5.8,
+        "weekly_retention": 65.1
+      },
+      "engagement_depth": {
+        "power_users": 145,
+        "regular_users": 378,
+        "trial_users": 724
+      },
+      "business_impact": {
+        "customer_satisfaction_increase": 8.3,
+        "support_ticket_reduction": 7.2,
+        "upsell_correlation": 0.81
+      }
+    },
+    {
+      "feature_name": "custom_alerts_engine",
+      "launch_date": "2024-01-05",
+      "adoption_metrics": {
+        "total_users_exposed": 892,
+        "active_users": 267,
+        "adoption_rate": 29.9,
+        "time_to_first_use_avg_days": 8.1,
+        "weekly_retention": 52.4
+      },
+      "engagement_depth": {
+        "power_users": 89,
+        "regular_users": 178,
+        "trial_users": 625
+      },
+      "business_impact": {
+        "customer_satisfaction_increase": 15.2,
+        "support_ticket_reduction": 23.1,
+        "upsell_correlation": 0.67
+      }
+    },
+    {
+      "feature_name": "shopify_integration",
+      "launch_date": "2023-10-10", 
+      "adoption_metrics": {
+        "total_users_exposed": 1247,
+        "active_users": 892,
+        "adoption_rate": 71.5,
+        "time_to_first_use_avg_days": 1.2,
+        "weekly_retention": 89.3
+      },
+      "engagement_depth": {
+        "power_users": 445,
+        "regular_users": 447,
+        "trial_users": 355
+      },
+      "business_impact": {
+        "customer_satisfaction_increase": 22.8,
+        "support_ticket_reduction": 31.4,
+        "upsell_correlation": 0.89
+      }
+    }
+  ],
+  "trends": {
+    "overall_feature_adoption_trend": "increasing",
+    "average_adoption_rate": 51.8,
+    "feature_stickiness_score": 73.2,
+    "cross_feature_usage": 2.4
+  },
+  "insights": [
+    {
+      "type": "product_success",
+      "content": "Shopify integration drives highest retention and satisfaction",
+      "confidence": 0.94,
+      "recommendation": "Prioritize similar marketplace integrations"
+    },
+    {
+      "type": "adoption_barrier",
+      "content": "Custom alerts have low initial adoption but high satisfaction once used",
+      "confidence": 0.86,
+      "recommendation": "Improve onboarding flow for alerts feature"
+    },
+    {
+      "type": "upsell_opportunity", 
+      "content": "Funnel analyzer users show highest upgrade correlation",
+      "confidence": 0.89,
+      "recommendation": "Target funnel analyzer users for premium tier"
+    }
+  ],
+  "metadata": {
+    "measurement_framework": "HEART_metrics",
+    "statistical_significance": 0.95,
+    "data_collection_period": "90_days",
+    "user_cohort_size": 1247
+  }
+} 

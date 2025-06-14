@@ -1,0 +1,173 @@
+{
+  "source": "zendesk_api",
+  "data_type": "support_tickets",
+  "time_period": "january_2024",
+  "summary_metrics": {
+    "total_tickets": 127,
+    "resolved_tickets": 119,
+    "average_resolution_time_hours": 8.4,
+    "customer_satisfaction_score": 4.6,
+    "first_response_time_hours": 2.1,
+    "escalation_rate": 4.7
+  },
+  "ticket_categories": [
+    {
+      "category": "integration_setup",
+      "count": 34,
+      "avg_resolution_hours": 6.2,
+      "satisfaction_score": 4.8,
+      "trend": "decreasing",
+      "common_issues": [
+        "Shopify API key configuration",
+        "Webhook endpoint setup",
+        "Custom domain SSL issues"
+      ]
+    },
+    {
+      "category": "feature_questions",
+      "count": 28,
+      "avg_resolution_hours": 3.1,
+      "satisfaction_score": 4.7,
+      "trend": "stable",
+      "common_issues": [
+        "How to set up conversion funnels",
+        "Custom alert configuration",
+        "Dashboard customization options"
+      ]
+    },
+    {
+      "category": "data_discrepancies", 
+      "count": 21,
+      "avg_resolution_hours": 12.8,
+      "satisfaction_score": 4.2,
+      "trend": "increasing",
+      "common_issues": [
+        "Revenue attribution differences",
+        "Session tracking inconsistencies",
+        "Timezone configuration problems"
+      ]
+    },
+    {
+      "category": "billing_account",
+      "count": 18,
+      "avg_resolution_hours": 4.7,
+      "satisfaction_score": 4.9,
+      "trend": "stable",
+      "common_issues": [
+        "Plan upgrade requests",
+        "Invoice questions",
+        "Usage limit clarifications"
+      ]
+    },
+    {
+      "category": "performance_issues",
+      "count": 15,
+      "avg_resolution_hours": 15.3,
+      "satisfaction_score": 3.8,
+      "trend": "decreasing",
+      "common_issues": [
+        "Dashboard loading slowly",
+        "Report export timeouts",
+        "API rate limiting"
+      ]
+    },
+    {
+      "category": "feature_requests",
+      "count": 11,
+      "avg_resolution_hours": 2.5,
+      "satisfaction_score": 4.4,
+      "trend": "increasing",
+      "common_issues": [
+        "WooCommerce integration",
+        "Mobile app request",
+        "Advanced segmentation features"
+      ]
+    }
+  ],
+  "customer_sentiment": {
+    "positive": 73.2,
+    "neutral": 19.7,
+    "negative": 7.1,
+    "sentiment_trend": "improving",
+    "key_satisfaction_drivers": [
+      "Fast response times",
+      "Knowledgeable support team", 
+      "Clear documentation"
+    ],
+    "key_pain_points": [
+      "Data accuracy concerns",
+      "Performance during peak traffic",
+      "Limited integration options"
+    ]
+  },
+  "feature_requests_analysis": [
+    {
+      "request": "WooCommerce integration",
+      "frequency": 23,
+      "business_impact": "high",
+      "effort_estimate": "medium",
+      "customer_segments": ["starter", "professional"],
+      "revenue_potential": 180000
+    },
+    {
+      "request": "Mobile app",
+      "frequency": 18,
+      "business_impact": "medium",
+      "effort_estimate": "high", 
+      "customer_segments": ["professional", "enterprise"],
+      "revenue_potential": 95000
+    },
+    {
+      "request": "Advanced cohort analysis",
+      "frequency": 14,
+      "business_impact": "high",
+      "effort_estimate": "medium",
+      "customer_segments": ["enterprise"],
+      "revenue_potential": 240000
+    },
+    {
+      "request": "White-label solution",
+      "frequency": 9,
+      "business_impact": "very_high",
+      "effort_estimate": "very_high",
+      "customer_segments": ["enterprise"],
+      "revenue_potential": 450000
+    }
+  ],
+  "team_performance": {
+    "support_agents": 4,
+    "tickets_per_agent_per_day": 7.9,
+    "agent_satisfaction_scores": [4.8, 4.6, 4.7, 4.5],
+    "training_completion_rate": 95.0,
+    "knowledge_base_utilization": 67.3
+  },
+  "insights": [
+    {
+      "type": "product_improvement",
+      "content": "Data discrepancy tickets increased 23% - need better validation",
+      "confidence": 0.89,
+      "action_priority": "high",
+      "estimated_impact": "15% reduction in support volume"
+    },
+    {
+      "type": "growth_opportunity",
+      "content": "WooCommerce integration requested by 23 customers worth $180K ARR",
+      "confidence": 0.94,
+      "action_priority": "medium",
+      "estimated_impact": "7% ARR increase"
+    },
+    {
+      "type": "operational_excellence", 
+      "content": "Support satisfaction improved from 4.3 to 4.6 after new hire training",
+      "confidence": 0.92,
+      "action_priority": "low",
+      "estimated_impact": "Retention improvement"
+    }
+  ],
+  "metadata": {
+    "data_collection_method": "automated_ticket_parsing",
+    "sentiment_analysis_accuracy": 0.87,
+    "response_rate": 0.91,
+    "data_freshness": "real_time"
+  }
+} 
