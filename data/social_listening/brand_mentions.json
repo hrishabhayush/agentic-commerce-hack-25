@@ -1,0 +1,206 @@
+{
+  "source": "brandwatch_social_listening",
+  "data_type": "brand_mentions_sentiment",
+  "time_period": "january_2024",
+  "summary_metrics": {
+    "total_mentions": 247,
+    "net_sentiment_score": 72.3,
+    "reach_total": 45600,
+    "engagement_rate": 8.4,
+    "share_of_voice": 12.7,
+    "trending_direction": "positive"
+  },
+  "platform_breakdown": [
+    {
+      "platform": "twitter",
+      "mentions": 134,
+      "sentiment_score": 74.1,
+      "reach": 28400,
+      "engagement_rate": 12.2,
+      "key_topics": ["dashboard", "integration", "pricing", "support"],
+      "influential_mentions": [
+        {
+          "user": "@ecomm_expert_jane",
+          "followers": 15600,
+          "content": "FlowMetrics dashboard update is incredible. Real-time alerts saved us 30% on abandoned cart recovery!",
+          "engagement": 89,
+          "sentiment": "very_positive"
+        },
+        {
+          "user": "@saas_reviewer_mike", 
+          "followers": 8200,
+          "content": "Solid analytics platform but still waiting for WooCommerce integration. @FlowMetrics when?",
+          "engagement": 45,
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "platform": "linkedin",
+      "mentions": 67,
+      "sentiment_score": 78.9,
+      "reach": 12300,
+      "engagement_rate": 6.8,
+      "key_topics": ["analytics", "growth", "roi", "enterprise"],
+      "influential_mentions": [
+        {
+          "user": "Sarah Chen - VP Growth",
+          "connections": 3400,
+          "content": "Quarter-end analytics review: FlowMetrics helped us identify our highest-value customer segments. ROI is undeniable.",
+          "engagement": 67,
+          "sentiment": "very_positive"
+        }
+      ]
+    },
+    {
+      "platform": "reddit",
+      "mentions": 28,
+      "sentiment_score": 65.2,
+      "reach": 3200,
+      "engagement_rate": 15.7,
+      "key_topics": ["alternatives", "pricing", "features", "comparison"],
+      "discussion_threads": [
+        {
+          "subreddit": "r/ecommerce",
+          "title": "FlowMetrics vs AnalyticsFlow - which for mid-size store?",
+          "upvotes": 34,
+          "comments": 12,
+          "overall_sentiment": "positive_towards_us"
+        },
+        {
+          "subreddit": "r/shopify", 
+          "title": "Best analytics tools for Shopify stores under $500/month?",
+          "upvotes": 56,
+          "comments": 23,
+          "overall_sentiment": "neutral_mixed"
+        }
+      ]
+    },
+    {
+      "platform": "youtube",
+      "mentions": 18,
+      "sentiment_score": 69.4,
+      "reach": 1700,
+      "engagement_rate": 4.2,
+      "key_topics": ["tutorial", "setup", "review", "comparison"],
+      "notable_videos": [
+        {
+          "channel": "Ecommerce Optimization Hub",
+          "title": "FlowMetrics Tutorial: Setting Up Conversion Funnels",
+          "views": 890,
+          "likes": 67,
+          "sentiment": "positive"
+        }
+      ]
+    }
+  ],
+  "sentiment_analysis": {
+    "positive": 68.4,
+    "neutral": 25.9,
+    "negative": 5.7,
+    "sentiment_drivers": {
+      "positive": [
+        "Easy setup and integration",
+        "Responsive customer support", 
+        "Clear data visualization",
+        "Accurate tracking",
+        "Good value for price point"
+      ],
+      "negative": [
+        "Limited integration options",
+        "Occasional dashboard slowness",
+        "Need more advanced features",
+        "WooCommerce integration missing"
+      ]
+    }
+  },
+  "trending_topics": [
+    {
+      "topic": "real_time_dashboard",
+      "mention_count": 89,
+      "sentiment": 78.2,
+      "growth_rate": 34.5,
+      "context": "Users praising new dashboard speed and features"
+    },
+    {
+      "topic": "shopify_integration",
+      "mention_count": 76,
+      "sentiment": 82.1,
+      "growth_rate": 12.3,
+      "context": "Positive feedback on seamless Shopify integration"
+    },
+    {
+      "topic": "woocommerce_request",
+      "mention_count": 43,
+      "sentiment": 45.6,
+      "growth_rate": 67.8,
+      "context": "Growing requests for WooCommerce support"
+    },
+    {
+      "topic": "pricing_value", 
+      "mention_count": 31,
+      "sentiment": 71.4,
+      "growth_rate": -8.2,
+      "context": "Generally positive on pricing, some competitive pressure"
+    }
+  ],
+  "competitor_comparison": {
+    "flowmetrics_mentions": 247,
+    "analyticsflow_mentions": 412,
+    "datainsights_mentions": 189,
+    "ecommtracker_mentions": 156,
+    "our_sentiment_vs_competitors": {
+      "flowmetrics": 72.3,
+      "analyticsflow": 69.8,
+      "datainsights": 64.2,
+      "ecommtracker": 78.1
+    }
+  },
+  "influencer_analysis": [
+    {
+      "influencer": "@ecomm_growth_hacker",
+      "followers": 23400,
+      "mentions_of_us": 3,
+      "sentiment_towards_us": "positive",
+      "engagement_potential": "high",
+      "suggested_outreach": true
+    },
+    {
+      "influencer": "@data_driven_marketing",
+      "followers": 18900,
+      "mentions_of_us": 1,
+      "sentiment_towards_us": "neutral",
+      "engagement_potential": "medium",
+      "suggested_outreach": true
+    }
+  ],
+  "insights": [
+    {
+      "type": "product_feedback",
+      "content": "Real-time dashboard update driving significant positive sentiment",
+      "confidence": 0.92,
+      "supporting_data": "89 mentions with 78.2% positive sentiment",
+      "action_recommendation": "Amplify success stories in marketing"
+    },
+    {
+      "type": "feature_gap",
+      "content": "WooCommerce integration requests accelerating (67.8% growth)",
+      "confidence": 0.88,
+      "supporting_data": "43 mentions, mostly from frustrated potential customers",
+      "action_recommendation": "Fast-track WooCommerce integration"
+    },
+    {
+      "type": "competitive_positioning",
+      "content": "Higher sentiment than most competitors despite lower mention volume",
+      "confidence": 0.85,
+      "supporting_data": "72.3% vs 69.8% (AnalyticsFlow) sentiment score",
+      "action_recommendation": "Increase brand awareness campaigns"
+    }
+  ],
+  "metadata": {
+    "monitoring_keywords": ["FlowMetrics", "@FlowMetrics", "flow metrics", "analytics dashboard"],
+    "languages_monitored": ["english"],
+    "sentiment_accuracy": 0.87,
+    "data_completeness": 0.94
+  }
+} 

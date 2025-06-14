@@ -1,0 +1,56 @@
+{
+  "source": "mixpanel_api",
+  "data_type": "daily_active_users",
+  "time_period": "last_30_days",
+  "metrics": {
+    "current_dau": 1247,
+    "previous_period_dau": 1019,
+    "growth_rate": 22.4,
+    "growth_trend": "accelerating"
+  },
+  "daily_breakdown": [
+    {"date": "2024-01-01", "dau": 1019, "unique_companies": 387},
+    {"date": "2024-01-02", "dau": 1034, "unique_companies": 389},
+    {"date": "2024-01-03", "dau": 1058, "unique_companies": 392},
+    {"date": "2024-01-04", "dau": 1072, "unique_companies": 394},
+    {"date": "2024-01-05", "dau": 1089, "unique_companies": 396},
+    {"date": "2024-01-06", "dau": 1101, "unique_companies": 398},
+    {"date": "2024-01-07", "dau": 1118, "unique_companies": 401},
+    {"date": "2024-01-08", "dau": 1143, "unique_companies": 405},
+    {"date": "2024-01-09", "dau": 1156, "unique_companies": 408},
+    {"date": "2024-01-10", "dau": 1171, "unique_companies": 412},
+    {"date": "2024-01-11", "dau": 1189, "unique_companies": 415},
+    {"date": "2024-01-12", "dau": 1203, "unique_companies": 418},
+    {"date": "2024-01-13", "dau": 1218, "unique_companies": 421},
+    {"date": "2024-01-14", "dau": 1231, "unique_companies": 424},
+    {"date": "2024-01-15", "dau": 1247, "unique_companies": 427}
+  ],
+  "insights": [
+    {
+      "type": "growth_driver", 
+      "content": "New dashboard launch drove 18% increase in daily engagement",
+      "confidence": 0.87,
+      "supporting_data": "Feature adoption rate of 64% among active users"
+    },
+    {
+      "type": "user_behavior",
+      "content": "Average session duration increased from 24 to 31 minutes",
+      "confidence": 0.92,
+      "supporting_data": "Correlation with new real-time alerts feature"
+    }
+  ],
+  "anomalies": [
+    {
+      "date": "2024-01-08",
+      "type": "spike",
+      "description": "23% DAU increase after product hunt launch",
+      "impact": "temporary_boost"
+    }
+  ],
+  "metadata": {
+    "collection_method": "client_side_tracking",
+    "data_freshness": "real_time",
+    "confidence_score": 0.94,
+    "sample_size": "100%_coverage"
+  }
+} 

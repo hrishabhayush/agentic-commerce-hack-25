@@ -1,0 +1,97 @@
+{
+  "source": "stripe_api",
+  "data_type": "monthly_recurring_revenue",
+  "time_period": "q4_2023_to_q1_2024",
+  "current_metrics": {
+    "mrr_current": 233333,
+    "arr_current": 2800000,
+    "mrr_growth_mom": 8.2,
+    "mrr_growth_qoq": 25.1,
+    "customer_count": 452,
+    "average_revenue_per_user": 516.37
+  },
+  "historical_data": [
+    {"month": "2023-10", "mrr": 186667, "customers": 378, "arpu": 493.83},
+    {"month": "2023-11", "mrr": 195000, "customers": 389, "arpu": 501.29},
+    {"month": "2023-12", "mrr": 206667, "customers": 402, "arpu": 514.42},
+    {"month": "2024-01", "mrr": 220000, "customers": 423, "arpu": 520.09},
+    {"month": "2024-02", "mrr": 231667, "customers": 441, "arpu": 525.30},
+    {"month": "2024-03", "mrr": 233333, "customers": 452, "arpu": 516.37}
+  ],
+  "subscription_tiers": {
+    "starter_199": {
+      "price": 199,
+      "customer_count": 167,
+      "mrr_contribution": 33233,
+      "churn_rate": 4.2,
+      "upgrade_rate": 18.5
+    },
+    "professional_399": {
+      "price": 399,
+      "customer_count": 201,
+      "mrr_contribution": 80199,
+      "churn_rate": 2.8,
+      "upgrade_rate": 12.3
+    },
+    "enterprise_999": {
+      "price": 999,
+      "customer_count": 84,
+      "mrr_contribution": 83916,
+      "churn_rate": 1.1,
+      "upgrade_rate": 5.7
+    }
+  },
+  "revenue_movements": {
+    "new_business_mrr": 18750,
+    "expansion_mrr": 12400,
+    "contraction_mrr": -3200,
+    "churned_mrr": -9800,
+    "net_new_mrr": 18150
+  },
+  "cohort_analysis": {
+    "month_0_retention": 100.0,
+    "month_1_retention": 94.2,
+    "month_3_retention": 89.1,
+    "month_6_retention": 84.7,
+    "month_12_retention": 78.9
+  },
+  "customer_acquisition": {
+    "new_customers_this_month": 29,
+    "customer_acquisition_cost": 847,
+    "customer_lifetime_value": 14200,
+    "ltv_cac_ratio": 16.8,
+    "payback_period_months": 5.2
+  },
+  "insights": [
+    {
+      "type": "growth_acceleration",
+      "content": "MRR growth accelerated to 25.1% QoQ, driven by enterprise tier expansion",
+      "confidence": 0.96,
+      "supporting_metrics": "Enterprise customers increased from 67 to 84"
+    },
+    {
+      "type": "pricing_optimization",
+      "content": "Professional tier shows highest upgrade potential with 12.3% monthly upgrade rate",
+      "confidence": 0.88,
+      "supporting_metrics": "201 customers at $399 price point with low churn"
+    },
+    {
+      "type": "churn_improvement",
+      "content": "Overall churn rate decreased from 3.2% to 2.4% after onboarding improvements",
+      "confidence": 0.91,
+      "supporting_metrics": "Particularly strong in enterprise segment (1.1% churn)"
+    }
+  ],
+  "forecasting": {
+    "predicted_arr_eoy": 3850000,
+    "confidence_interval": [3600000, 4100000],
+    "growth_assumption": "current_trends_continue",
+    "key_risks": ["market_saturation", "increased_competition", "economic_downturn"]
+  },
+  "metadata": {
+    "currency": "USD",
+    "accounting_method": "accrual",
+    "recognition_policy": "monthly",
+    "data_accuracy": 0.98
+  }
+} 
